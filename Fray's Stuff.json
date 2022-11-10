@@ -1,0 +1,1935 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "FraysStuff",
+				"abbreviation": "FS",
+				"full": "Fray's Stuff",
+				"url": "",
+				"authors": [
+					"Frayer"
+				],
+				"convertedBy": []
+			}
+		]
+	},
+	"item": [
+		{
+			"name": "Amulet of Commonfolk Disguise",
+			"wondrous": true,
+			"tier": "minor",
+			"rarity": "common",
+			"source": "FraysStuff",
+			"entries": [
+				"This amulet has three charges that reset every dawn. As an action, you can expend a charge to take on the form of a humanoid. The effect is similar to the {@spell polymorph} spell, with some changes. The effect's duration is indefinite, and it doesn't require concentration. A member of the common humanoid races was sacrificed in the crafting of this amulet. The DM or player can decide what this person looked like. You transform to look just as that person looked in life. Your disguise form will wear clothes and/or armor of the same style as yours, changed as if made for that race's anatomy if necessary, but bearing none of the magical enhancements of your gear. While transformed you use the {@creature commoner} stat block, but retain your Intelligence, Wisdom, and Charisma scores. You lose all of your racial and class abilities, but gain the racial abilities of the disguise form's race while transformed. You can dismiss the effect and return to your true form as a bonus action. If the effect ends due to taking damage while you still have charges remaining, you can use a charge and your reaction to quickly transform back while trying to avoid notice. Creatures that can see you within 30 feet when you quick-transform like that can make a Wisdom (Perception) check contested by your Charisma (Performance) or Charisma (Deception) skill. On success, those creatures notice that your form was shifting but don't see what you were changing into. Creatures that succeed that know the Polymorph spell can surmise that you are using a polymorph effect. If the effect ends due to a magical effect that removes the polymorph effects such as {@spell dispel magic}, you cannot attempt to quick-transform with your reaction, and your true form is revealed."
+			],
+			"fluff": {
+				"entries": [
+					"This small amulet of brass depicts a simplified head of the humanoid race it is connected to when its magical effect inactive, changing to a simplified snake's head when active."
+				]
+			}
+		},
+		{
+			"name": "Basic Poison (Naga's Bite)",
+			"type": "G",
+			"value": 10000,
+			"baseItem": "Basic Poison (vial)|PHB",
+			"poison": true,
+			"source": "FraysStuff",
+			"entries": [
+				"You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a Constitution saving throw with a DC based on the crafter's venom potency (8 + crafter's proficiency bonus + crafter's Constitution modifier) or take {@damage 1d4} poison damage. Once applied, the poison retains potency for 1 minute before drying."
+			]
+		},
+		{
+			"name": "Assassin's Blood (Naga's Bite)",
+			"type": "G",
+			"value": 15000,
+			"baseItem": "Assassin's Blood|DMG",
+			"poison": true,
+			"source": "FraysStuff",
+			"entries": [
+				"A creature subjected to this poison must make a Constitution saving throw with a DC based on the crafter's venom potency (8 + crafter's proficiency bonus + crafter's Constitution modifier). On a failed save, it takes 6 ({@damage 1d12}) poison damage and is {@condition poisoned} for 24 hours. On a successful save, the creature takes half damage and isn't {@condition poisoned}."
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Burnt Othur Fumes (Naga's Bite)",
+			"type": "G",
+			"value": 50000,
+			"baseItem": "Burnt Othur Fumes|DMG",
+			"poison": true,
+			"source": "FraysStuff",
+			"entries": [
+				"A creature subjected to this poison must succeed on a Constitution saving throw with a DC based on the crafter's venom potency (8 + crafter's proficiency bonus + crafter's Constitution modifier) or take 10 ({@damage 3d6}) poison damage, and must repeat the saving throw at the start of each of its turns. On each successive failed save, the character takes 3 ({@damage 1d6}) poison damage. After three successful saves, the poison ends."
+			],
+			"poisonTypes": [
+				"inhaled"
+			]
+		},
+		{
+			"name": "Midnight Tears (Naga's Bite)",
+			"type": "G",
+			"value": 150000,
+			"baseItem": "Midnight Tears|DMG",
+			"poison": true,
+			"source": "FraysStuff",
+			"entries": [
+				"A creature that ingests this poison suffers no effect until the stroke of midnight. If the poison has not been neutralized before then, the creature must succeed on a Constitution saving throw with a DC based on the crafter's venom potency (8 + crafter's proficiency bonus + crafter's Constitution modifier), taking 31 ({@damage 9d6}) poison damage on a failed save, or half as much damage on a successful one."
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Pale Tincture (Naga's Bite)",
+			"type": "G",
+			"value": 25000,
+			"baseItem": "Pale Tincture|DMG",
+			"poison": true,
+			"source": "FraysStuff",
+			"entries": [
+				"A creature subjected to this poison must succeed on a Constitution saving throw with a DC based on the crafter's venom potency (8 + crafter's proficiency bonus + crafter's Constitution modifier) or take 3 ({@damage 1d6}) poison damage and become poisoned. The poisoned creature must repeat the saving throw every 24 hours, taking 3 ({@damage 1d6}) poison damage on a failed save. Until this poison ends, the damage the poison deals can't be healed by any means. After seven successful saving throws, the effect ends and the creature can heal normally."
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Potent Poison (Naga's Bite)",
+			"type": "G",
+			"poison": true,
+			"source": "FraysStuff",
+			"entries": [
+				"A dose of poison created using the {@feat Poisoner|TCE} feat.",
+				"You can use the poison in this vial to coat one slashing or piercing weapon or one piece of ammunition. Once applied, the poison retains its potency for 1 minute or until you hit with the weapon or ammunition. Applying the poison takes an action. When a creature takes damage from the coated weapon or ammunition, that creature must succeed on a Constitution saving throw with a DC based on the crafter's venom potency (8 + crafter's proficiency bonus + crafter's Constitution modifier) or take {@damage 2d8} poison damage and become {@condition poisoned} until the end of your next turn."
+			]
+		}
+	],
+	"race": [
+		{
+			"name": "Naga",
+			"source": "FraysStuff",
+			"ability": [
+				{
+					"con": 2,
+					"int": 1
+				}
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"traitTags": [
+				"Monstrous Race"
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Like humans, naga reach adulthood in their late teens. They show no signs of aging beyond that point except for growing larger, so in theory, a naga could live well over a century."
+					]
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+						"Most naga are either neutral or neutral evil in alignment."
+					]
+				},
+				{
+					"name": "Size",
+					"entries": [
+						"Naga stand about 5 feet tall when upright, but the total length of their bodies, head to tail, ranges from 10 to as much as 20 feet. Your size is Medium."
+					]
+				},
+				{
+					"name": "Speed Burst",
+					"entries": [
+						"By lowering your body to the ground and propelling yourself with your arms, you can move more quickly for a time. As a bonus action on your turn, if you have both hands free, you can increase your walking speed by 5 feet until the end of your turn."
+					]
+				},
+				{
+					"name": "Natural Weapons",
+					"entries": [
+						"Your fanged maw and constricting serpentine body are natural weapons, which you can use to make unarmed strikes.",
+						"If you hit with your bite, you deal piercing damage equal to {@damage 1d4} + your Strength modifier, and your target must make a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier). On a failed save, the target takes {@damage 1d4} poison damage.",
+						"If you hit with your constrict attack, you deal bludgeoning damage equal to {@damage 1d6} + your Strength modifier, and the target is {@condition grappled} (escape DC 8 + your proficiency bonus + your Strength modifier). Until this grapple ends, the target is {@condition restrained}, and you can't constrict another target."
+					]
+				},
+				{
+					"name": "Poison Immunity",
+					"entries": [
+						"You are immune to poison damage and can't be {@condition poisoned}."
+					]
+				},
+				{
+					"name": "Poison Affinity",
+					"entries": [
+						"You gain proficiency with the {@item poisoner's kit}. When you use a poisoner's kit to craft a damage-dealing poison that doesn't require specific uncommon ingredients, you can substitute the deadly agent with your own venom. When you do so, reduce the cost of crafting components by up to 25gp and change DC of any Constitution saves to resist the poison's effects to match your venomous bite at the time of crafting (DC 8 + your proficiency bonus + your Constitution modifier) if that is higher than the poison's normal save DC."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Naga."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Naga resemble enormous snakes with shoulders, arms, and a torso that resembles a humanoid form. They typically hold their heads and torsos off the ground while moving, but they can increase their speed by lowering their bodies and using their hands for extra propulsion. They adorn their torsos with armor, jewelry, and a vague nod toward the clothing worn by other races. Male naga have broad hoods, wider than their shoulders, while females have narrower hoods and longer faces.",
+					"Naga believe in a principle called the Sweetest Harmony, which describes a perfect balance between the body and the mind. Finding that balance, as they understand it, is a sure path to glory in the trials, since a combination of physical and mental preparation will ensure success in every trial. For an example of this Sweetest Harmony, they point to the Luxa river and the land it nourishes, which exist in a delicate and life-giving balance. Either one without the other would be diminished and useless. Just so, mental strength supports physical capabilities, and physical fortitude feeds mental tenacity, so neither mind nor body can exist in isolation.",
+					"In the same way, the naga believe that Kefnet and Rhonas exist in interdependence, and that their trials are best conceived as two halves of a whole. But in practice, as much as they strive for balance and harmony, most naga identify more strongly with one god than the other.",
+					{
+						"name": "Combat Classes",
+						"entries": [
+							"To the benefit of those naga who struggle with the ideal of the Sweetest Harmony, the training of acolytes encourages specialization. Thus, naga who follow in the path of the snake-headed god Rhonas can cultivate their physical strength as they specialize in hand-to-hand combat styles, while other naga favor the teachings of Kefnet and other combat styles.",
+							"Naga who specialize in hand-to-hand combat rely on axes, daggers, and shortswords—but also on their own fangs and the constricting strength of their serpentine bodies. They make extensive use of poison, coating their weapons with multiple layers of deadly substances—including, but by no means limited to, their own venom. Quick, well-timed, and well-placed blows, followed by an equally nimble retreat, allow many naga to triumph over opponents who might seem stronger. With acknowledgment of the Sweetest Harmony, these naga cultivate an understanding of strategy and tactics that enhances their physical training.",
+							"Speed and accuracy are equally important to naga who specialize in long-range combat. Some prefer to analyze a battle from a distance and pick off the strongest opponents with their ranged weapons, including poisoned spears and arrows. Others ride in chariots driven by trusted drivers (usually other naga) and throw their spears from the midst of battle. In any case, they excel at finding and exploiting strategic advantages.",
+							"Some naga mages, drawn to the example of Kefnet, make extensive use of illusion magic to trick and mislead their opponents. Others apply Rhonas's teachings to their studies, wielding poisonous magic that weakens opponents or kills them outright with clouds or darts of deadly toxins. Still others, in service to the ideal of balance, use the magical power of their minds to enhance their physical strength and speed."
+						]
+					}
+				]
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"naga": true
+				}
+			]
+		},
+		{
+			"name": "Shade",
+			"source": "FraysStuff",
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"aberration"
+			],
+			"darkvision": 120,
+			"traitTags": [
+				"Monstrous Race"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"entries": [
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are an Aberration."
+					]
+				},
+				{
+					"name": "Age",
+					"entries": [
+						"Shades are not truly living, so they do not age."
+					]
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+						"Beings born of negative emotion, most shades are evil and it is difficult to change that."
+					]
+				},
+				{
+					"name": "Size",
+					"entries": [
+						"Shades can change the specifics of their size at will, but stay within the bounds of medium size."
+					]
+				},
+				{
+					"name": "Superior Darkvision",
+					"entries": [
+						"You are a being of shadow, so the darkness hides nothing from you. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"name": "Meld with Darkness",
+					"entries": [
+						"While in dim light or darkness, you can take the {@action Hide} action as a bonus action."
+					]
+				},
+				{
+					"name": "Reconstitute",
+					"entries": [
+						"You draw on the shadows to close cuts and other disruptions to your form as they come.",
+						"You ignore some damage each turn from these sources: slashing, piercing, and bludgeoning damage from nonmagical attacks, acid, fire, cold, lightning, and thunder. The damage you can ignore is equal to the sum of your class levels and resets at the start of your turn unless you are in direct sunlight or took radiant damage in the previous turn."
+					]
+				},
+				{
+					"name": "Mutable Form",
+					"entries": [
+						"Your form is fluid, and you can shape it to suit your needs or whims.",
+						"As an action, you can change the shape and voice of your true form. You can change your size within the bounds of medium creatures, appear shaped like another race, beast, or monster that you have seen or can imagine, add horns, claws, limbs, or anything else. Those changes do not give any lasting benefits as game statistics or abilities. You must take a shape that can practically wear your equipment as determined by the DM to gain any benefit from that equipment. If you take a shape that can't wear your equipment, it merges into your form until you change to a shape that can wear it. No matter your shape, your true form always appears to be made of twisting darkness and wisps of shadow. You can change your form in this way as many times as you like.",
+						"You can use this trait to take on a terrifying, monstrous appearance, forcing creatures other than your companions within 30 feet that can see you to make a wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or be {@condition frightened} of you for up to 1 minute. Affected creatures can repeat the saving throw at the end of each of their turns to remove the condition. When you use this trait in nonmagical darkness, you can emit just enough light during the transformation that creatures without {@sense darkvision} can see you and potentially be affected. You can use this trait to attempt to frighten others a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"name": "Commonfolk Disguise",
+					"entries": [
+						"You can try to hide your dark form and blend in with the common races, though the disguise is flimsy.",
+						"As an action, you can change your appearance and voice to that of a member of any of the common races. You can't use this trait to imitate a specific person without help from a {@item disguise kit|PHB} or something similar. Creatures with {@sense truesight} see you as the last form you took with the Mutable Form trait. For the purpose of spells and effects that detect or remove magic, this effect counts as a transmutation spell effect whose level is the sum of your class levels, divided by 3, and rounded up. When you are exposed to sunlight or take radiant damage, the disguise appears to waver slightly as black wisps of smoke emit from you. You must maintain this disguise as if you were concentrating on a spell; however, this doesn't prevent you from concentrating on a spell at the same time. You can drop the disguise form without an action on your turn. If you are forced out of your disguise form because you lost concentration or the effect was removed by magic, you cannot use this trait again until you finish a short or long rest."
+					]
+				},
+				{
+					"name": "Unliving",
+					"entries": [
+						"You are resistant to necrotic damage. You are immune to disease, poison damage, and can't be {@condition poisoned}.",
+						"You don't need to eat, breathe, or sleep. To gain the benefits of a long rest, you can spend 8 hours engaged in light activity, rather than sleeping during any of it.",
+						"When you \"die\", your form is destroyed and disappears in a burst of shadowy energy, leaving no corpse, but leaving behind all items and equipment you had. Roll a d20. If you roll a 5 or higher, you will be regenerated at a random dark location within 10 miles of where you were destroyed 1d4 days later and gain the benefits of a long rest. Each time you are destroyed, the number you need to roll to regenerate increases by 5 to a maximum of 20. If you were destroyed because radiant damage was dealt in excess of your hitpoint maximum after you were brought to 0 hitpoints, you cannot roll to regenerate. Once finally destroyed, only a {@spell wish} spell can bring you back to existence."
+					]
+				},
+				{
+					"name": "Weakness to Light",
+					"entries": [
+						"While in direct sunlight, you have disadvantage on attack rolls, ability checks, and saving throws.",
+						"You are vulnerable to radiant damage. Effects that would cause you to be immune or resistant to radiant damage instead only cause you to take normal radiant damage."
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			]
+		},
+		{
+			"name": "Celesti",
+			"source": "FraysStuff",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"entries": [
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are a humanoid."
+					]
+				},
+				{
+					"name": "Age",
+					"entries": [
+						"The lifespan of Celesti varies depending on their Aspect and sub-race. They mature somewhere around 15 years of age, and their maximum age can range from 80 to over 200 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+						"The Celesti don't have a tendency towards either side on the lawfulness scale. They are somewhat more inclined toward good, but not bound there."
+					]
+				},
+				{
+					"name": "Size",
+					"entries": [
+						"The size of Celesti varies greatly between the different Aspects and sub-races from small to medium."
+					]
+				},
+				{
+					"name": "Animal Sub-race",
+					"entries": [
+						"The classification of any Celesti has two parts: their Aspect, which is the celestial body they are aligned to, and their sub-race, which is the animal that their body shape resembles.",
+						"Select one of the following traits appropriate to your sub-race:",
+						{
+							"type": "list",
+							"items": [
+								"Bite. Appropriate for canines and other predators with strong jaws. Your fanged maw is a natural weapon that you can use to make one unarmed strike per turn. If you hit with it, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. On a hit, you can attempt to knock the target prone as if you had made a {@action Shove} attack with intent to knock them prone.",
+								"Claws. Appropriate for felines and other predators with rending claws. You can use your claws to make unarmed strikes. When you hit with them, you deal 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.",
+								"Horns/Antlers. Appropriate for creatures that use such natural tools to defend themselves. You can use your horns or antlers to make one unarmed strike per turn. If you hit with it, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. If you move at least 20 feet in a line toward your target immediately before the attack, deal an additional 1d4 piercing damage on a hit, and you can attempt to knock the target prone or move them as if you had made a {@action Shove} attack.",
+								"Swift Escape. Appropriate for swift prey or some nimble predators. As a reaction whenever you are targeted by a melee attack or a spell with a range of Touch, you can move up to half your movement speed without triggering opportunity attacks. If you escape the range of the attack or spell, the attack misses or the spell is wasted. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+								"Limited Flight. Appropriate for winged creatures. You have a flying speed of 30 feet while you aren't wearing heavy armor. You can only maintain flight a number of consecutive turns equal to double your proficiency bonus, after which time you must spend an entire minute on the ground before you can fly again. While airborn and not flying, you can glide, reducing your falling speed to as low as 30 feet per turn, and allowing you to move horizontally up to 30 feet per turn."
+							]
+						}
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			]
+		}
+	],
+	"subrace": [
+		{
+			"name": "Sarisi",
+			"source": "FraysStuff",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"S",
+				"M"
+			],
+			"ability": [
+				{
+					"str": 2,
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"cha",
+							"int",
+							"wis"
+						],
+						"count": 1
+					}
+				},
+				{
+					"dex": 2,
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"cha",
+							"int",
+							"wis"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"The Sarisi live the somewhat shorter lives compared to the other two Aspects of the Celesti. Their maximum age is around 80 years, varying somewhat between different sub-races."
+					],
+					"data": {
+						"overwrite": "Age"
+					}
+				},
+				{
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. Choose a size appropriate for your sub-race. No matter their height, Sarisi usually have a more athletic build than members of the other two Aspects."
+					],
+					"data": {
+						"overwrite": "Size"
+					}
+				},
+				{
+					"name": "Energy of Saris",
+					"entries": [
+						"You have proficiency in one of the following skills of your choice: {@skill Athletics} or {@skill Acrobatics}."
+					]
+				},
+				{
+					"name": "Heat Resistant",
+					"entries": [
+						"You have resistance to fire damage. You have immunity to any fire damage you would cause to yourself, such as if you are in the area of a {@spell fireball} spell cast by you."
+					]
+				},
+				{
+					"name": "Hot-blooded",
+					"entries": [
+						"When a Sarisi is active, their body can become so hot that grass smolders beneath their feet and creatures that touch them risk burns.",
+						"After spending 5 consecutive turns taking actions or movement in combat or 10 turns (1 minute) performing strenuous activity out of combat, you become superheated. You remain superheated until you spend 5 mintues out of combat, not doing anything strenuous. Taking any frost damage or being soaked in water causes you to lose your superheated state and resets the number of turns needed to become superheated.",
+						"While superheated, the below effects apply. A single target can take at most two d4's of damage per round from any of these effects.",
+						{
+							"type": "list",
+							"items": [
+								"Creatures that attack you with unarmed strikes, natural weapon attacks, or Touch spells take 1d4 fire damage.",
+								"Creatures that grapple you take 2d4 fire damage when they initiate the grapple, and an additional 2d4 fire damage at the end of each of their subsequent turns if they continue to grapple you.",
+								"Your unarmed or natural weapon attacks deal an additional 1d4 fire damage. Beginning at level 7, your attacks with weapons made primarily out of metal deal an additional 1d4 fire damage.",
+								"Creatures grappled by you take 2d4 fire damage at the end of each of your turns.",
+								"You and creatures within 5 feet of you are immune to the adverse effects of cold weather."
+							]
+						},
+						"If you spend 5 or more minutes superheated, any clothes or armor you are wearing become damaged if they aren't magical or specially heat-treated. Clothes become singed, and are destroyed if damaged 3 times. Armor loses 1 point of its base AC and is destroyed if its base AC (not including dexterity bonus) falls below 10. Alchemists can treat any armor, and a blacksmith, leatherworker, or tailor may be able to treat armors created by their profession, for a cost. Clothes and armor you start with from your class and background are heat-treated."
+					]
+				}
+			],
+			"raceName": "Celesti",
+			"raceSource": "FraysStuff"
+		},
+		{
+			"name": "Luelli",
+			"source": "FraysStuff",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"S",
+				"M"
+			],
+			"ability": [
+				{
+					"cha": 2,
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"str",
+							"int",
+							"wis"
+						],
+						"count": 1
+					}
+				}
+			],
+			"darkvision": 60,
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"A Luelli's Aspect doesn't affect their lifespan as much as the other two Aspects affect their members. Your oldest age could be between 80 and 160 years depending on your sub-race."
+					],
+					"data": {
+						"overwrite": "Age"
+					}
+				},
+				{
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. Choose a size appropriate for your sub-race. Luelli tend to be somewhat smaller and more elegantly-shaped than members of the other two Aspects."
+					],
+					"data": {
+						"overwrite": "Size"
+					}
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"name": "Grace of Luelle",
+					"entries": [
+						"You have proficiency in one of the following skills of your choice: {@skill Persuasion}, {@skill Performance}, or {@skill Arcana}."
+					]
+				},
+				{
+					"name": "Wax and Wane",
+					"entries": [
+						"Just as the moon can glow brighter or fade away with its phases, so can you.",
+						"While in dim light or darkness, you can use a bonus action to cause your body to glow and emit dim light in a 15 foot radius as long as your body isn't fully covered. You can use a bonus action again to stop glowing.",
+						"While in dim light or darkness and while you aren't glowing, you can hide as a bonus action and you have advantage on Dexterity (Stealth) checks that involve sight."
+					]
+				},
+				{
+					"name": "Effortless Floating",
+					"entries": [
+						"All Luelli subconsciously draw on magic that changes the forces acting on their bodies, letting them float about effortlessly, just as the moon through the night's sky.",
+						"All damage you take from falling or from an impact after being forcibly thrown is reduced by half.",
+						"Additionally, as long as you are not incapacitated, not wearing heavy armor, and not over-encumbered, the following effects apply to you:",
+						{
+							"type": "list",
+							"items": [
+								"You have advantage on Dexterity (Acrobatics) checks.",
+								"You can reduce your falling speed to as low as 30 feet per turn or increase it up to normal falling speed as a reaction. You don't take falling damage if your falling speed is 60 feet per turn or lower.",
+								"While falling, you can move 5 feet horizontally for every 10 feet you fall, and can even change your horizontal trajectory mid-air at will.",
+								"If you have the Limited Flight trait from your sub-race, you can maintain that flight for any number of turns. If you have Limited Flight or a flying speed from any other source, you can hover.",
+								"Whenever you perform a long jump or are forcibly thrown more than 10 feet by any effect, you can change your trajectory and land in any free space up to 10 feet from where you would have landed.",
+								"As a bonus action, you can float above the ground while using your movement on your turn, eliminating noise from your footsteps and causing you to ignore difficult terrain, traps triggered by walking on them, and other ground-based effects while moving. You return to the ground after moving and may trigger effects on the ground at that point. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+							]
+						}
+					]
+				}
+			],
+			"raceName": "Celesti",
+			"raceSource": "FraysStuff"
+		},
+		{
+			"name": "Korumi",
+			"source": "FraysStuff",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"M"
+			],
+			"ability": [
+				{
+					"con": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"cha",
+							"int",
+							"wis"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"The Korumi generally live the longest of the three Aspects. A helthy Korumi could live up to 200 years."
+					],
+					"data": {
+						"overwrite": "Age"
+					}
+				},
+				{
+					"name": "Size",
+					"entries": [
+						"Korumi are always larger and stockier than members of the same sub-race from one of the other Aspects. Your size is Medium."
+					],
+					"data": {
+						"overwrite": "Size"
+					}
+				},
+				{
+					"name": "Wisdom of Korum",
+					"entries": [
+						"You have proficiency in one of the following skills of your choice: {@skill Nature}, {@skill Survival}, or {@skill Insight}."
+					]
+				},
+				{
+					"name": "Durable Body",
+					"entries": [
+						"Your hide is quite thick and resilient. When you aren't wearing armor, your base AC is 13 + Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.",
+						"Each time you take damage, reduce the damage by an amount equal to your proficiency bonus. This doesn't stack with damage resistance; if you take damage that you are resistant to, either reduce it using your resistance or with this trait, whichever reduces it the most."
+					]
+				},
+				{
+					"name": "Immovable",
+					"entries": [
+						"Whenever you are knocked prone or forced to move as a result of failing a Strength or Dexterity saving throw or contested throw, you can repeat the roll and you are not knocked prone or forced to move if you succeed. You still take damage or suffer any other effects that resulted from failing the first throw, if any, and if they are appropriate considering you aren't prone or moved. If you are still forced to move after rolling again, you can reduce the distance you are moved by half to a minimum of 5 feet."
+					]
+				}
+			],
+			"raceName": "Celesti",
+			"raceSource": "FraysStuff"
+		}
+	],
+	"class": [
+		{
+			"name": "Adept",
+			"source": "FraysStuff",
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"con",
+				"cha"
+			],
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Talents Known|optionalfeatures|feature type=Adeptal Talent}",
+						"{@filter Invocations Known|optionalfeatures|feature type=Invocation}",
+						"Power Points",
+						"Maximum Power Cost"
+					],
+					"rows": [
+						[
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							2,
+							4,
+							2
+						],
+						[
+							2,
+							2,
+							7,
+							3
+						],
+						[
+							2,
+							2,
+							12,
+							4
+						],
+						[
+							2,
+							3,
+							15,
+							5
+						],
+						[
+							2,
+							3,
+							20,
+							5
+						],
+						[
+							3,
+							4,
+							23,
+							6
+						],
+						[
+							3,
+							4,
+							28,
+							7
+						],
+						[
+							3,
+							5,
+							31,
+							7
+						],
+						[
+							3,
+							5,
+							36,
+							8
+						],
+						[
+							3,
+							6,
+							39,
+							9
+						],
+						[
+							3,
+							6,
+							44,
+							9
+						],
+						[
+							4,
+							7,
+							47,
+							10
+						],
+						[
+							4,
+							7,
+							52,
+							11
+						],
+						[
+							4,
+							8,
+							55,
+							11
+						],
+						[
+							4,
+							8,
+							60,
+							12
+						],
+						[
+							4,
+							9,
+							63,
+							12
+						],
+						[
+							5,
+							9,
+							68,
+							13
+						],
+						[
+							5,
+							10,
+							71,
+							13
+						],
+						[
+							5,
+							10,
+							76,
+							13
+						]
+					]
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light"
+				],
+				"weapons": [
+					"simple"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"history",
+								"insight",
+								"intimidation",
+								"nature",
+								"persuasion",
+								"Religion"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
+					"A set of {@item leather armor|phb}, any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}, and two {@item dagger|phb|daggers}"
+				],
+				"goldAlternative": "{@dice 4d4×10|4d4 × 10|Starting Gold}",
+				"defaultData": [
+					{
+						"a": [
+							"light crossbow|phb",
+							"crossbow bolts (20)|phb"
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSimple"
+							}
+						]
+					},
+					{
+						"a": [
+							"dungeoneer's pack|phb"
+						],
+						"b": [
+							"explorer's pack|phb"
+						]
+					},
+					{
+						"_": [
+							"leather armor|phb",
+							{
+								"equipmentType": "weaponSimple"
+							},
+							{
+								"item": "dagger|phb",
+								"quantity": 2
+							}
+						]
+					}
+				]
+			},
+			"classFeatures": [
+				"Aspect Powers|Adept|FraysStuff|1",
+				"Aspect Damage Types|Adept|FraysStuff|1",
+				"Adeptal Talents|Adept|FraysStuff|1",
+				"Invocations|Adept|FraysStuff|2",
+				"Power Transformation|Adept|FraysStuff|3",
+				{
+					"classFeature": "Adaptation|Adept|FraysStuff|3",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Adept|FraysStuff|4",
+				"Strengthened Bond|Adept|FraysStuff|5",
+				{
+					"classFeature": "Adaptation feature|Adept|FraysStuff|6",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Adept|FraysStuff|8",
+				"More Transformations|Adept|FraysStuff|9",
+				"Powerful Bond|Adept|FraysStuff|10",
+				{
+					"classFeature": "Adaptation feature|Adept|FraysStuff|11",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Adept|FraysStuff|12",
+				"Celestial Link|Adept|FraysStuff|14",
+				"Empowered Invocations|Adept|FraysStuff|15",
+				"Ability Score Improvement|Adept|FraysStuff|16",
+				{
+					"classFeature": "Adaptation feature|Adept|FraysStuff|17",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Adept|FraysStuff|19",
+				"Masterful Control|Adept|FraysStuff|20"
+			],
+			"subclassTitle": "Adaptation",
+			"fluff": [
+				{
+					"name": "The Aspect Adept",
+					"type": "section",
+					"entries": [
+						"Every member of the Celesti race are born of one of the three Aspects, a link to one of the three celestial bodies closest to Korum: Saris, Luelle, and Korum itself. Their link allows them to passively and subconsciously draw on the power of that celestial body to give them some small amount of supernatural ability. A few of the Celsti, however, are born with a deeper connection, or strengthen their connection through rituals and meditation, and are able to invoke the power of their Aspect directly. They are called the Adepts."
+					]
+				}
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"source": "FraysStuff",
+			"name": "Crescent Strike",
+			"prerequisite": [
+				{
+					"feature": [
+						"Any Aspect"
+					]
+				}
+			],
+			"entries": [
+				"You strike with your weapon and unleash an arc of damaging energy simultaneously. Make a melee attack using the weapon used in the talent's casting against a target within the weapon's range. On a hit, the target suffers the weapon attack's normal effects and takes additional damage of your Aspect's basic damage type equal to your Charisma modifier. Then, choose a secondary target within 5 feet of the primary target. The secondary target must make a Dexterity saving throw or also takes damage of your Aspect's basic damage type equal to your Charisma modifier.",
+				"This talent's damage increases when you reach certain levels. The damage that both targets take of your Aspect's basic damage type increases to 1d8 + your Charisma modifier at 5th level and increases another 1d8 at 11th level (2d8 + mod) and 17th level (3d8 + mod).",
+				"Casting time: 1 action",
+				"Range: Self",
+				"Components: A melee weapon",
+				"Duration: Instantaneous"
+			],
+			"featureType": [
+				"Adeptal Talent"
+			]
+		},
+		{
+			"source": "FraysStuff",
+			"name": "Energy Missile",
+			"prerequisite": [
+				{
+					"feature": [
+						"Any Aspect"
+					]
+				}
+			],
+			"entries": [
+				"You launch a small projectile made of your Aspect's energy at a creature or object within range. Make a ranged power attack against the target. On a hit, the target takes 1d10 damage of your Aspect's basic damage type.",
+				"This talent's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).",
+				"Casting time: 1 action",
+				"Range: 120 feet",
+				"Duration: Instantaneous"
+			],
+			"featureType": [
+				"Adeptal Talent"
+			]
+		},
+		{
+			"source": "FraysStuff",
+			"name": "Float Object",
+			"prerequisite": [
+				{
+					"feature": [
+						"Luelle"
+					]
+				}
+			],
+			"entries": [
+				"You are able to change the forces acting on small objects, making them float about.",
+				"You choose one object not being held nor carried and weighing no more than 10 pounds, and cause it to float.",
+				"Immediately after casting the spell, or using your action on each subsequent turn, you can move the object at a rate of 30 feet per turn. The effect ends on the object if it is ever more than 30 feet away from you.",
+				"You have enough fine control over the object to manipulate it, such as opening a container or unlocking a door with a floated key. You can't make melee attacks with the object or activate any magical properties it may have.",
+				"You can use a subsequent action to throw the object up to 30 + 5 times your Charisma modifier feet in any direction, ending the effect immediately after. If you use this to throw an object at a creature, make an attack using your Charisma modifier for the attack and damage rolls. Weapons with the thrown property use their normal range, damage, and other effects. Other solid objects deal 1d4 + Charisma mod bludgeoning damage and have a range of 20/60 feet. Objects not solid enough to deal damage are thrown harmlessly.",
+				"Casting time: 1 action",
+				"Range: 30 feet",
+				"Duration: Concentration"
+			],
+			"featureType": [
+				"Adeptal Talent"
+			]
+		},
+		{
+			"source": "FraysStuff",
+			"name": "Push/Pull",
+			"prerequisite": [
+				{
+					"feature": [
+						"Luelle"
+					]
+				}
+			],
+			"entries": [
+				"You manifest a great force to move obstacles in your way.",
+				"Nearly invisible energy wraps around an object or creature of size Large or smaller and attempts to move it. Objects that aren't secured are automatically moved. Secured objects may need a Charisma check with a DC determined by your DM to be uprooted, or may be too secure to be moved. Creatures must make a Strength saving throw to resist being moved, or can choose to fail the saving throw. If the object or creature can be moved, it is forced up to 10 feet in a line in a direction you choose.",
+				"Casting time: 1 bonus action",
+				"Range: 15 feet",
+				"Duration: Instantaneous"
+			],
+			"featureType": [
+				"Adeptal Talent"
+			]
+		},
+		{
+			"source": "FraysStuff",
+			"name": "Dancing Lights",
+			"prerequisite": [
+				{
+					"feature": [
+						"Luelle",
+						"Saris"
+					]
+				}
+			],
+			"entries": [
+				"You create a number of points of light to brighten your way.",
+				"You create the effect of the {@spell Dancing Lights|PHB} cantrip. The lights appear as flickering flames for Saris or orbs of cool white moonlight for Luelle.",
+				"Casting time: 1 action",
+				"Range: 120 feet",
+				"Duration: Concentration, up to 1 minute"
+			],
+			"featureType": [
+				"Adeptal Talent"
+			]
+		},
+		{
+			"source": "FraysStuff",
+			"name": "Earthen Shield",
+			"prerequisite": [
+				{
+					"feature": [
+						"Korumi"
+					]
+				}
+			],
+			"entries": [
+				"You cause a barrier of solid stone to erupt from the ground at a position of your choice within range. If you are playing on a square grid, choose up to 2 sides of a space that are touching. if playing on a hex grid, choose up to 3 sides of a space that are touching. The barrier acts as a chest-high wall along those lines.",
+				"The barrier provides half cover while it stands. It requires 15 feet of movement to vault over. It has 15 + double your Charisma modifier hitpoints, 17 AC, immunity to psychic, necrotic, radiant, and poison damage, and resistance to all other damage except bludgeoning.",
+				"Casting time: 1 action",
+				"Range: 30 feet",
+				"Duration: Instantaneous"
+			],
+			"featureType": [
+				"Adeptal Talent"
+			]
+		},
+
+		{
+			"source": "FraysStuff",
+			"name": "Power Bolt",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 2
+					},
+					"feature": [
+						"Any Aspect"
+					]
+				}
+			],
+			"entries": [
+				"The most simple way to use your Adept's power: to simply blast your opponents with it. You launch a bolt of your power at your opponents.",
+				"You choose either your Aspect's basic or extra damage type, then make a ranged attack at each target. On a hit, the target takes damage of the type chosen. The same damage type is used for all targets.",
+				"Base Cost: 2 power",
+				"Transformations Available: Amplify, Lengthen, Multiply, Quicken",
+				"Casting time: 1 action (1 bonus action if Quickened)",
+				"Damage: 2d10 + 1d10 per Amplify",
+				"Range: 90 feet + 90 feet if Lengthened",
+				"Targets: 1 + 1 per Multiply (maximum 4 targets)"
+			],
+			"featureType": [
+				"Invocation"
+			]
+		},
+		{
+			"source": "FraysStuff",
+			"name": "Earth Tremor",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 2
+					},
+					"feature": [
+						"Korumi"
+					]
+				}
+			],
+			"entries": [
+				"You batter the ground beneath you with your power, causing a localized earthquake.",
+				"You create the effect of the {@spell Earth Tremor|XGE} spell.",
+				"Base Cost: 2 power",
+				"Transformations Available: Amplify, Quicken",
+				"Casting time: 1 action (1 bonus action if Quickened)",
+				"Spell slot: 1st + 1 per Amplify"
+			],
+			"featureType": [
+				"Invocation"
+			]
+		},
+		{
+			"source": "FraysStuff",
+			"name": "Force Shield",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 2
+					},
+					"feature": [
+						"Luelle"
+					]
+				}
+			],
+			"entries": [
+				"You project a barrier of force to deflect attacks.",
+				"You create the effect of the {@spell Shield|PHB} spell.",
+				"Base Cost: 2 power",
+				"Transformations Available: None",
+				"Casting time: 1 reaction",
+				"Spell slot: 1st"
+			],
+			"featureType": [
+				"Invocation"
+			]
+		},
+		{
+			"source": "FraysStuff",
+			"name": "Retributive Armor",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 2
+					},
+					"feature": [
+						"Any Aspect"
+					]
+				}
+			],
+			"entries": [
+				"A field of your Aspect's power covers you, protecting you from harm and lashing out at your aggressors.",
+				"You create the effect of the {@spell Armor of Agathys|PHB} spell, except that the visuals and damage done by the spell change to match your Aspect's basic damage type.",
+				"Base Cost: 2 power",
+				"Transformations Available: Amplify",
+				"Casting time: 1 action",
+				"Duration: 1 hour",
+				"Spell slot: 1st + 1 per Amplify"
+			],
+			"featureType": [
+				"Invocation"
+			]
+		},
+		{
+			"source": "FraysStuff",
+			"name": "Wave of Harm",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 2
+					},
+					"feature": [
+						"Any Aspect"
+					]
+				}
+			],
+			"entries": [
+				"A sheet of your Aspect's power ripples forth from you, assaulting everything in front of you.",
+				"Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes damage of your Aspect's basic damage type on a failed save, or half as much damage on a successful save.",
+				"Base Cost: 2 power",
+				"Transformations Available: Amplify, Multiply, Enlarge, Quicken",
+				"Casting time: 1 action (1 bonus action if Quickened)",
+				"Damage: 2d8 + 1d8 per Amplify",
+				"Range: Self (15-foot cone + 15 feet if Enlarged)",
+				"Effects of Multiply: Create a second 15-foot cone aimed in another direction and apply the invocation's effects to creatures within it. A creature that is within both cones is only affected by the invocation once. You can not use Multiply and Enlarge together."
+			],
+			"featureType": [
+				"Invocation"
+			]
+		},
+		{
+			"source": "FraysStuff",
+			"name": "Ring of Comets",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 6
+					},
+					"feature": [
+						"Any Aspect"
+					]
+				}
+			],
+			"entries": [
+				"You conjure several orbs of energy with glowing trails that orbit above you until the invocation ends. You can use a bonus action to launch an orb at a creature or object within 120 feet of you. When you do, make a ranged power attack. On a hit, the target takes damage of your Aspect's extra damage type. Hit or miss, the orb is expended.",
+				"While any orbs remain, they shed dim light in a 30-foot radius.",
+				"Base Cost: 6 power",
+				"Transformations Available: Amplify, Multiply",
+				"Casting time: 1 action",
+				"Damage: 4d8 + 1d8 per Amplify",
+				"Orbs Created: 5 + 5 if Multiplied",
+				"Duration: 1 hour"
+			],
+			"featureType": [
+				"Invocation"
+			]
+		},
+		{
+			"source": "FraysStuff",
+			"name": "Energy Claws",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 3
+					},
+					"feature": [
+						"Incarnate Adaptation"
+					]
+				}
+			],
+			"entries": [
+				"Your power manifests as magical weapons projected from your forearms that you can fight with just like your own hands. Without Amplify, these claws deal 1d4 slashing or bludgeoning damage (you choose with each attack) + 1d4 damage of your Aspect's basic damage type. The claws are considered magical melee weapons which use your Strength modifier, have the light property, and have a range of 5 feet. You can use either one to attack only when that hand is free. You can't be disarmed of these weapons.",
+				"When you use the Amplify transformation on this invocation, the claws gain bonuses to attack and damage rolls, or the damage dice become larger, following this table:",
+				{
+					"type": "table",
+					"colLabels": [
+						"Amplify Count",
+						"Attack Bonus",
+						"Damage"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-2 text-center",
+						"col-6 text-center"
+					],
+					"rows": [
+						[
+							"1",
+							"+1",
+							"1d4 + 1 slash/blud., 2d4 Aspect basic"
+						],
+						[
+							"2",
+							"+1",
+							"1d6 + 1 slash/blud., 3d4 Aspect basic"
+						],
+						[
+							"3",
+							"+2",
+							"1d6 + 2 slash/blud., 4d4 Aspect basic"
+						],
+						[
+							"4",
+							"+2",
+							"1d8 + 2 slash/blud., 5d4 Aspect basic"
+						],
+						[
+							"5",
+							"+3",
+							"1d8 + 3 slash/blud., 6d4 Aspect basic"
+						]
+					]
+				},
+				"Base Cost: 2 power",
+				"Transformations Available: Amplify, Extend",
+				"Casting time: 1 bonus action",
+				"Duration: 1 minute + 1 minute if Extended"
+			],
+			"featureType": [
+				"Invocation"
+			]
+		}
+
+	],
+	"classFeature": [
+		{
+			"name": "Aspect Powers",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"level": 1,
+			"entries": [
+				"Your deep connection with your Aspect causes its power to flow through you, and you've learned to invoke that power to create a variety of magical effects. Using your innate powers is a special form of magic distinct from spellcasting. Your powers come in the form of minor Adeptal talents that you learn at 1st level, and invocations that you begin to learn at 2nd level. Wherever this class description says \"Aspect Powers\", it is referring to both adeptal talents and invocations.",
+				{
+					"type": "entries",
+					"name": "Aspect Power Rules",
+					"entries": [
+						"Aspect powers follow most of the same rules as spells as described in {@book chapter 10|PHB|10}, \"Spellcasting\" in the Player's Handbook, except that using an Invocation consumes your Power Points (as described in 2nd level) rather than using spell slots. Using an Aspect power prevents you from using a spell or another Aspect power on your turn in the same way that spellcasters can generally only use 1 spell on their turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Components",
+					"entries": [
+						"You wield the powers of your Aspect using only your force of will, so using an Aspect power never requires a verbal or somatic component. An Aspect power will require a material component only if it is enchanting the material, such as enhancing a weapon. If one of your Aspect powers creates the effect of a spell, you ignore the verbal and somatic components of the spell, and you are always considered to be holding a spellcasting focus."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Power Ability",
+					"entries": [
+						"Charisma is your power ability for your Adeptal Talents and Invocations. You use your Charisma whenever an Adeptal Talent or Invocation refers to your power ability. In addition, you use your Charisma modifier when setting the saving throw DC for an Adeptal talent or Invocation you cast and when making an attack roll with one. Some Aspect powers will refer to spells that spellcasters use; you will use your power ability, power save DC, and power attack modifier as explained here whenever those spells refer to your spellcasting ability, spell save DC, and spell attack modifier. ",
+						{
+							"type": "abilityDc",
+							"name": "Power",
+							"attributes": [
+								"cha"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Power",
+							"attributes": [
+								"cha"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Aspect Damage Types",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"level": 1,
+			"entries": [
+				"Each of the three Aspects are associated with certain types of energy, so the skills of the Adept use those types of energy as well.",
+				"Many of your Aspect powers and class features will refer to your Aspect's damage types. Refer to the table below for those damage types. \"Basic\" is the type of damage a majority of your powers will do. \"Extra\" is another type of damage available to you from fewer powers.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Aspect",
+						"Basic",
+						"Extra"
+					],
+					"colStyles": [
+						"col-4 text-center",
+						"col-4 text-center",
+						"col-4 text-center"
+					],
+					"rows": [
+						[
+							"Korumi",
+							"Thunder",
+							"Force"
+						],
+						[
+							"Luelle",
+							"Force",
+							"Radiant"
+						],
+						[
+							"Saris",
+							"Fire",
+							"Radiant"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Adeptal Talents",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"level": 1,
+			"entries": [
+				"An adeptal talent is a minor effect that you can create with your powers. They are similar to the cantrips that spellcasters use. they don't cost any Power Points to use.",
+				{
+					"type": "entries",
+					"name": "Talents Known",
+					"entries": [
+						"At 1st level, you know 2 adeptal talents of your choice. You learn additional talents of your choice at higher levels, as shown in the Talents Known column of the Adept table."
+					]
+				}
+			]
+		},
+		{
+			"name": "Invocations",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you gain the ability to call on a limited pool of your Aspect's powers to produce even more powerful effects. See the Arcane Powers feature above for general rules about how magic works for an Adept.",
+				{
+					"type": "entries",
+					"name": "Power Points",
+					"entries": [
+						"Your pool of Aspect energy that you can use to cast Invocations is represented by a number of power points. Your pool of power points increases as your Adept level increases, as shown in the Power Points column of the Adept table. To cast an invocation, you must spend at least the base cost listed in the invocation's description. You will learn ways to increase the power, and thus the cost, of your invocations. You can not cast an invocation whose power point cost is greater than the number listed in the Maximum Power column of the Adept table. All of your expended power points are restored when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Invocations Known",
+					"entries": [
+						"You know two invocations from the {@filter invocations list|optionalfeatures|feature type=invocation}.",
+						"Your choice of which invocations you can learn is limited by the Aspect you are connected to and by the maximum power of invocations you can cast. The invocation descriptions list which Aspects can use them. The descriptions also list a base cost for an invocation; that base cost must be equal to or less than the maximum power of invocations you can cast for your level.",
+						"As you gain levels in this class, you will be able to choose more invocations to learn. Refer to the Invocations Known column of the Adept table for the number of invocations you can know at each level.",
+						"When you gain a level in this class, you can choose one invocation you know and replace it with another invocation that you qualify for."
+					]
+				}
+			]
+		},
+		{
+			"name": "Power Transformation",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"level": 3,
+			"entries": [
+				"Your control over your powers increases, and you've learned more ways to wield them just as you need for the situation.",
+				"At 3rd level, you learn power transformations that you can use to change your invocations when you cast them. Using a transformation increases the power point cost of the invocation. You can only use a transformation if you have enough power points remaining and the modified cost of the invocation isn't greater than your maximum power. The description of each invocation describes how the transformations affect them specifically, and list which transformations are eligible to use with that invocation.",
+				"You have the following transformation options at 3rd level:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Amplify",
+							"entries": [
+								"Cost: 2 power points.",
+								"You increase the effectiveness of the invocation against each target. If the invocation creates the effect of a spell, this increases the level of the spell slot for the spell."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Multiply",
+							"entries": [
+								"Cost: 2 power points.",
+								"You increase the number of targets of the invocation."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lengthen",
+							"entries": [
+								"Cost: 1 power point.",
+								"You increase the range of the invocation."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Adaptation",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"level": 3,
+			"entries": [
+				"As fun as it is to blast your opponents again and again using your blessing from your Aspect, an Adept knows that their toolset should be expanded to increase their odds of surviving. Or, they may choose to lean further into their strengths.",
+				"At 3rd level, choose an adaptation that shows how you are applying your skills toward wielding your talents in a new way. The adaptation you choose grants you features at 3rd level and again at 6th, 11th, and 17th level."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Strengthened Bond",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"level": 5,
+			"entries": [
+				"All members of the Celesti race feel some of their Aspect's power passively affecting them, but those effects are even stronger for an Adept.",
+				"At 5th level, some of the racial traits you gain from your Aspect are improved or augmented. One of the below affects you based on your Aspect:",
+				{
+					"type": "entries",
+					"name": "Korumi: Magic Resilience",
+					"entries": [
+						"You add your proficiency bonus to Intelligence and Wisdom saving throws made to resist the effects of a spell or invocation, and get a bonus of +2 to your AC when defending against spell attacks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Luelle: Forever Floating",
+					"entries": [
+						"The bonus action granted by your Effortless Floating racial trait that allows you to float is replaced with the following:",
+						"While not incapacitated, not wearing heavy armor, and not over-encumbered, you float above the ground indefinitely. You make no sound while walking and you ignore difficult terrain, traps triggered by walking on them, and other ground-based effects. If you become incapacitated, don heavy armor, or become over-encumbered, you return to the ground. You can toggle the effect on or off without using any action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Saris: Searing Blood",
+					"entries": [
+						"You can enter your superheated state as a bonus action, ignoring the build-up normally required.",
+						"You burn hot enough to damage those around you, even if they don't touch you. While superheated, creatures within 10 feet of you at the start of their turn take damage from your Hot-blooded trait as if they had touched you. This doesn't increase the maximum damage a creature can take from that trait per turn. You can choose any number of creatures to not be affected by this damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Adaptation feature",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain a feature granted by your Adaptation."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"level": 8,
+			"entries": [
+				"When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "More Transformations",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"level": 9,
+			"entries": [
+				"At 9rd level, you learn more ways to change the ways that your invocations work.",
+				"You learn the following transformation options:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Enlarge",
+							"entries": [
+								"Cost: 2 power points.",
+								"You increase the area of effect of an invocation."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Quicken",
+							"entries": [
+								"Cost: 1 power point.",
+								"You reduce the cast time of an invocation to 1 bonus action, allowing you to take another action on your turn. This does not allow you to cast another Aspect power or a spell on that turn."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Powerful Bond",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"level": 10,
+			"entries": [
+				"Your link to your Aspect's power grows even stronger, and so to do your passive blessings from that bond.",
+				"At 9th level, you gain more passive traits from your Aspect or your racial traits are further improved. One of the below affects you based on your Aspect:",
+				{
+					"type": "entries",
+					"name": "Korumi: Crystalize Magic",
+					"entries": [
+						"Whenever you are forced to make a Constitution, Charisma, Intelligence, or Wisdom saving throw due to a spell or invocation's effect, if you roll higher than the save DC by 5 or more, you absorb the magic, which forms into a crystal of energy attached to your body. The same happens if you are targeted by a spell attack or invocation's power attack that rolls 5 or more below your AC (not including temporary bonuses to your AC). A crystal can be spent in place of 1 power point when you cast an invocation. You can have a maximum of 2 crystals at a time. If you gain a third, it replaces the oldest crystal. Crystals crumble away after 10 minutes."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Luelle: Fade Away",
+					"entries": [
+						"When you use your Wax and Wane racial trait to hide in dim light or darkness, you become invisible. The invisibility ends if you attack, cast a spell or invocation, take any damage, or move more than 15 feet per turn.",
+						"If you break your invisibility from this feature by casting a harmful invocation, any creature targeted by the invocation that was unaware of your position has a -3 penalty to any saves they make against that invocation."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Saris: Blazing Speed",
+					"entries": [
+						"Your walking speed is increased to 40 feet.",
+						"When you take the Dash or Disengage action, any creature that is within 10 feet of you at any point during your movement takes damage from your Hot-blooded trait as if they had touched you. A creature can take damage in this way only once on your turn. This doesn't increase the maximum damage a creature can take from that trait per turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Adaptation feature",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"level": 11,
+			"entries": [
+				"At 11th level, you gain a feature granted by your Adaptation."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Celestial Link",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"level": 14,
+			"entries": [
+				"Through exploring the nature of your Aspect, you have learned that the three celestial bodies governing the Celesti have a deep connection with each other, like siblings from the same mother, and you have learned how to tap into that connection to borrow power from the other Aspects.",
+				"At 14th level, you learn 1 adeptal talent of your choice. The talent must be one that normally isn't available to your Aspect. You can use that talent once between long rests.",
+				"Additionally, you learn 2 invocations of your choice: 1 invocation for each of the two Aspects other than your own. Each invocation must be available to that other Aspect and must not normally be available to yours. For example, if your Aspect is Saris, you could choose Earth Tremor for Korumi and Force Shield for Luelle because those are available to those Aspects and not to yours. You are able to cast each of those invocations once per long rest, paying the normal power point cost.",
+				"The adeptal talent and invocations you learn from this feature don't count against the number of talents and invocations you can know."
+			]
+		},
+		{
+			"name": "Empowered Invocations",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"level": 15,
+			"entries": [
+				"At 15th level, you can exert greater control over your invocations to try to maximize their effectiveness.",
+				"Whenever you roll damage for an invocation that isn't empowered, you can choose to spend 2 power points to empower the invocation. You can choose to empower it after you see the damage rolls but before the damage is applied. Each time you roll damage for an empowered invocation, you can reroll as many as half of the damage dice rounded up. You must use the new rolls, even if they are lower. The invocation remains empowered for its entire duration."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"level": 16,
+			"entries": [
+				"When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Adaptation feature",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"level": 17,
+			"entries": [
+				"At 17th level, you gain a feature granted by your Adaptation."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Masterful Control",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"level": 20,
+			"entries": [
+				"At 20th level, bending the power of your Aspect with perfect precision comes effortlessly.",
+				"You gain a pool of 8 control points. These points can be spent in place of your power points when you apply any transformations except Amplify to your invocations. This pool is replenished when you finish a long rest."
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Arcane Conversion",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"subclassShortName": "Spellcharger",
+			"subclassSource": "FraysStuff",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You have learned to alter the power that you draw from your Aspect, changing it into arcane energy that you can use to cast magic outside of your Aspect's purview.",
+				{
+					"type": "entries",
+					"name": "Cantrips",
+					"entries": [
+						"You learn two cantrips of your choice from the {@filter sorcerer spell list|spells|level=0|class=sorcerer}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creating Spell Slots",
+					"entries": [
+						"Using a bonus action, you can spend 3 power points to create a 1st level spell slot. You can create higher-level spell slots by spending an additional 2 power points per slot level above 1st. For example, to create a 3rd level spell slot you must spend 7 power points: 3 base + 4 for the additional slot levels. You can only spend up to your maximum power as listed on the Adept table per use of this ability, so the maximum level of spell slot you can create depends on your level.",
+						"Spell slots created with this feature last until the end of your next long rest or until used. You can store up to two spell slots at a time with this feature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells Known of 1st-Level and Higher",
+					"entries": [
+						"You learn two spells of your choice from the {@filter sorcerer spell list|spells|class=sorcerer}. The spells must be of 1st level.",
+						"As you gain Adept levels, you will learn additional spells that can be more powerful. The number of spells you know is equal to your proficiency bonus. Spells that you learn can have a maximum level equal to the maximum spell slot level you can create with this feature.",
+						"Additionally, whenever you are able to learn a new spell with this feature, you can replace one spell you learned previously with another spell from the sorcerer spell list that you now qualify for."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"Your spellcasting ability for your sorcerer spells is the same as your power ability. Whenever a spell refers to your spellcasting ability, spell save DC, or spell attack modifier, use the values listed in the Power Ability section of the Adept class description."
+					]
+				}
+			]
+		},
+		{
+			"name": "Element Warp",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"subclassShortName": "Spellcharger",
+			"subclassSource": "FraysStuff",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, your practice in altering your Aspect's energy has taught you to weave your power into more types of energy than just arcane.",
+				"Whenever you deal damage with an invocation or a spell that you cast with your Arcane Conversion feature, you can spend 1 or more power points to convert some of the dice to one of these damage types: acid, cold, fire, lightning, or force. You convert damage dice for each target you damage, up to 3 dice of size d6 or smaller, or two dice of size d8 or larger, multiplied by the number of power points you spent."
+			]
+		},
+		{
+			"name": "Energy Redirection",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"subclassShortName": "Spellcharger",
+			"subclassSource": "FraysStuff",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, your will has grown strong enough to bend the magic of those around you as well.",
+				"Whenever the effect of an invocation or spell targets you or includes you in its area, you can use your reaction and make a Charisma check to attempt to deflect the spell. The DC equals 10 + the spell's level for spells, or 6 + the power cost for invocations. On a success, the spell does not affect you, appearing to deflect harmlessly away from you.",
+				"Additionally, if you rolled 5 or more higher than the DC, you can spend power points equal to the power points the original caster spent, or the number of power points it would cost you to create a spell slot equal to what the caster spent. If you do, you can choose new targets for the invocation or spell as if you had cast it.",
+				"This ability has two charges. You spend a charge when you successfully deflect an invocation or spell, whether or not you were able to change the targets. You regain the spent charges on a long rest."
+			]
+		},
+		{
+			"name": "Well of Power",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"subclassShortName": "Spellcharger",
+			"subclassSource": "FraysStuff",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"You gain an additional spell slot that doesn't count against your stored spell slots from Arcane Conversion. If expended, this spell slot is regained when you finish a long rest. The spell slot is 4th level, but it can be upgraded by spending 2 power points per slot level, up to 9th level. It reverts to a 4th level slot after it is expended or when you finish a long rest. You also learn one 7th, one 8th, and one 9th level spell each from the {@filter sorcerer spell list|spells|class=sorcerer} which don't count against the number of spells you can know."
+			]
+		},
+
+		{
+			"name": "Incarnate Adaptation",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"subclassShortName": "Incarnate",
+			"subclassSource": "FraysStuff",
+			"level": 3,
+			"entries": [
+				"The Incarnate Adepts focus on making themselves into a terrifying force on the battlefield. Not content with simply throwing magic from afar, the Incarnate charges into the fray with a primal ferocity and lets their Aspect's power flow into their strikes.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Armor Training|Adept|FraysStuff|Incarnate|FraysStuff|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Charged Combat|Adept|FraysStuff|Incarnate|FraysStuff|3"
+				}
+			]
+		},
+		{
+			"name": "Armor Training",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"subclassShortName": "Incarnate",
+			"subclassSource": "FraysStuff",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you take on this adaptation at 3rd level, you gain proficiency with medium armor."
+			]
+		},
+		{
+			"name": "Charged Combat",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"subclassShortName": "Incarnate",
+			"subclassSource": "FraysStuff",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You learn how to empower your melee attacks with your Aspect's energy, through the following unique invocation:",
+				{
+					"type": "entries",
+					"name": "Energy Claws",
+					"entries": [
+						"Your power manifests as magical weapons projected from your forearms that you can fight with just like your own hands. Without Amplify, these claws deal 1d4 slashing or bludgeoning damage (you choose with each attack) + 1d4 damage of your Aspect's basic damage type. The claws are considered magical melee weapons which use your Strength modifier, have the light property, and have a range of 5 feet. You can use either one to attack only when that hand is free. You can't be disarmed of these weapons.",
+						"When you use the Amplify transformation on this invocation, the claws gain bonuses to attack and damage rolls, or the damage dice become larger, following this table:",
+						{
+							"type": "table",
+							"colLabels": [
+								"Amplify Count",
+								"Attack Bonus",
+								"Damage"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-2 text-center",
+								"col-6 text-center"
+							],
+							"rows": [
+								[
+									"1",
+									"+1",
+									"1d4 + 1 slash/blud., 2d4 Aspect basic"
+								],
+								[
+									"2",
+									"+1",
+									"1d6 + 1 slash/blud., 3d4 Aspect basic"
+								],
+								[
+									"3",
+									"+2",
+									"1d6 + 2 slash/blud., 4d4 Aspect basic"
+								],
+								[
+									"4",
+									"+2",
+									"1d8 + 2 slash/blud., 5d4 Aspect basic"
+								],
+								[
+									"5",
+									"+3",
+									"1d8 + 3 slash/blud., 6d4 Aspect basic"
+								]
+							]
+						},
+						"Base Cost: 2 power",
+						"Transformations Available: Amplify, Extend",
+						"Casting time: 1 bonus action",
+						"Duration: 1 minute + 1 minute if Extended"
+					]
+				}
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"subclassShortName": "Incarnate",
+			"subclassSource": "FraysStuff",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Beginning at 6th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
+			]
+		},
+		{
+			"name": "Celestial Fury",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"subclassShortName": "Incarnate",
+			"subclassSource": "FraysStuff",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Beginning at 6th level, when you take the Attack action on your turn, you can replace one attack with a use of an adeptal talent that has a cast time of 1 action."
+			]
+		},
+		{
+			"name": "Not Sure Yet",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"subclassShortName": "Incarnate",
+			"subclassSource": "FraysStuff",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, you'll gain some feature that helps with utility or survivability or something."
+			]
+		},
+		{
+			"name": "Aspect Avatar",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"subclassShortName": "Incarnate",
+			"subclassSource": "FraysStuff",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you can assume a form like the embodiment of your Aspect's powers. Using your action, you undergo a transformation for 1 minute and gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You immediately cast your Energy Claws invocation for free with the maximum number of Amplify stacks applied. You can't use Extend with this free Energy Claws. If you were already under the effects of Energy Claws with a remaining duration longer than 1 minute, you can skip casting it again.",
+						"All bludgeoning, piercing, and slashing damage from your melee attacks is converted to either of your Aspect's damage types (you choose for each attack). Your attacks deal additional damage of that same type equal to your Charisma modifier.",
+						"The range of your melee attacks increases to 10 feet.",
+						"Whenever you use an invocation that has a casting time of 1 action, you can cast it using your bonus action instead.",
+						"You gain immunity to damage of both of your Aspect's damage types."
+					]
+				},
+				"You also gain one of the following benefits when you transform based on your Aspect:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Korumi",
+							"entries": [
+								"Each time you hit a creature with a melee or spell attack or a creature fails a Dexterity saving throw against one of your invocations or spells, that creature must make a Strength saving throw against your power save DC or be knocked prone."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Luelle",
+							"entries": [
+								"You emit bright light to a range of 45 feet and dim light for another 45 feet.",
+								"You have a 15-foot sphere of blinding light around you. When a creature other than you enters the area (including if you move toward them) or begins their turn there, they must make a Constitution saving throw or be blinded until they move out of the area or your transformation ends."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Saris",
+							"entries": [
+								"You emit bright light to a range of 30 feet and dim light for another 30 feet.",
+								"Whenever a creature within 15 feet of you makes an attack against you or one of your companions, a flare of solar energy lashes out at the attacker, dealing 1d8 fire damage and imposing disadvantage on the attack roll."
+							]
+						}
+					]
+				},
+				"Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Spellcharger",
+			"subclassFeatures": [
+				"Arcane Conversion|Adept|FraysStuff|Spellcharger|FraysStuff|3",
+				"Element Warp|Adept|FraysStuff|Spellcharger|FraysStuff|6",
+				"Energy Redirection|Adept|FraysStuff|Spellcharger|FraysStuff|11",
+				"Well of Power|Adept|FraysStuff|Spellcharger|FraysStuff|17"
+			],
+			"source": "FraysStuff",
+			"shortName": "Spellcharger",
+			"className": "Adept",
+			"classSource": "FraysStuff"
+		},
+		{
+			"name": "Incarnate",
+			"subclassFeatures": [
+				"Incarnate Adaptation|Adept|FraysStuff|Incarnate|FraysStuff|3",
+				"Extra Attack|Adept|FraysStuff|Incarnate|FraysStuff|6",
+				"Celestial Fury|Adept|FraysStuff|Incarnate|FraysStuff|6",
+				"Not Sure Yet|Adept|FraysStuff|Incarnate|FraysStuff|11",
+				"Aspect Avatar|Adept|FraysStuff|Incarnate|FraysStuff|17"
+			],
+			"source": "FraysStuff",
+			"shortName": "Incarnate",
+			"className": "Adept",
+			"classSource": "FraysStuff"
+		}
+	]
+}
