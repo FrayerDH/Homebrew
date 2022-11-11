@@ -1318,7 +1318,8 @@
 				"Base Cost: 12 power",
 				"Transformations Available: Quicken",
 				"Casting time: 1 action (1 bonus action if Quickened)",
-				"Range: 500 feet"
+				"Range: 500 feet",
+				"Duration: Concentration, up to 1 minute"
 			],
 			"featureType": [
 				"Invocation"
