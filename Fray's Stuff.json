@@ -1632,7 +1632,7 @@
 			"subclassSource": "FraysStuff",
 			"level": 3,
 			"entries": [
-				"The Spellcharger Adepts have discovered that their use of magic need not be limited to the elements that their Aspects let them draw on directly. Rather, much more of the catalog of spells is available to them should they just alter their Aspect's energy. Whether perverting the power of their people's forebears in this way is inethical is debatable, but none can argue that it doesn't bring the Spellcharger vastly more variety and utility.",
+				"The Spellcharger Adepts have discovered that their use of magic need not be limited to the elements that their Aspects let them draw on directly. Rather, much more of the catalog of spells is available to them should they just alter their Aspect's energy. Whether or not perverting the power of their people's forebears in this way is ethical is debatable, but none can argue that it doesn't bring the Spellcharger vastly more variety and utility.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Arcane Conversion|Adept|FraysStuff|Spellcharger|FraysStuff|3"
@@ -1852,7 +1852,7 @@
 			]
 		},
 		{
-			"name": "Not Sure Yet",
+			"name": "Energy Ward",
 			"source": "FraysStuff",
 			"className": "Adept",
 			"classSource": "FraysStuff",
@@ -1861,7 +1861,7 @@
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"At 11th level, you'll gain some feature that helps with utility or survivability or something."
+				"At 11th level, you learn how to quickly adapt your Energy Claws when you need to protect yourself. As a reaction when you would be hit by an attack and while you have the Energy Claws invocation active, you can convert the claw in your offhand into a magical shield. You lose the ability to attack with it, but it gives you the bonus +2 AC of a shield, plus additional bonus AC equal to the attack bonus the claws have if the invocation is Amplified. This bonus AC is applied immediately and can prevent the triggering attack from hitting. At the end of each of your turns, you decide whether the shield persists or changes back to a claw. While you have this magical shield, you are considered to be wielding a shield for the purpose of qualifying for benefits from feats, features, and other effects. You don't get this bonus AC if you are holding any other shield. The shield disappears at the end of Energy Claws's duration."
 			]
 		},
 		{
@@ -1938,7 +1938,7 @@
 				"Incarnate Adaptation|Adept|FraysStuff|Incarnate|FraysStuff|3",
 				"Extra Attack|Adept|FraysStuff|Incarnate|FraysStuff|6",
 				"Celestial Fury|Adept|FraysStuff|Incarnate|FraysStuff|6",
-				"Not Sure Yet|Adept|FraysStuff|Incarnate|FraysStuff|11",
+				"Energy Ward|Adept|FraysStuff|Incarnate|FraysStuff|11",
 				"Aspect Avatar|Adept|FraysStuff|Incarnate|FraysStuff|17"
 			],
 			"source": "FraysStuff",
