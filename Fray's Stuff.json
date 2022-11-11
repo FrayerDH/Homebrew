@@ -1128,6 +1128,33 @@
 		},
 		{
 			"source": "FraysStuff",
+			"name": "Enchanted Arrows",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 7
+					},
+					"feature": [
+						"Any Aspect"
+					]
+				}
+			],
+			"entries": [
+				"You enchant a quiver of ammunition so that each shot carries a piece of your Aspect's wrath.",
+				"You create the effect of the {@spell Flame Arrows|XGE} spell, except that the damage done by the spell changes to match your Aspect's basic damage type.",
+				"Base Cost: 6 power",
+				"Transformations Available: Amplify, Multiply",
+				"Casting time: 1 action",
+				"Duration: Concentration, up to 1 hour",
+				"Spell slot: 3rd + 1 per Amplify",
+				"Effects of Multiply: You touch two quivers of arrows or bolts equipped by separate creatures. When those creatures draw ammunition from their respective quiver, that ammunition is affected by the spell. The spell ends when the maximum pieces of ammunition have been drawn in total from either quiver. The number of pieces of ammunition affected increases by 6."
+			],
+			"featureType": [
+				"Invocation"
+			]
+		},
+		{
+			"source": "FraysStuff",
 			"name": "Wave of Harm",
 			"prerequisite": [
 				{
@@ -1159,7 +1186,7 @@
 			"prerequisite": [
 				{
 					"level": {
-						"level": 6
+						"level": 7
 					},
 					"feature": [
 						"Any Aspect"
@@ -1244,8 +1271,59 @@
 			"featureType": [
 				"Invocation"
 			]
+		},
+		{
+			"source": "FraysStuff",
+			"name": "Gravity Sinkhole",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 10
+					},
+					"feature": [
+						"Luelle"
+					]
+				}
+			],
+			"entries": [
+				"You create a crushing gravitational force that pulls and harms creatures.",
+				"You create the effect of the {@spell Gravity Sinkhole|EGW} spell.",
+				"Base Cost: 8 power",
+				"Transformations Available: Amplify, Quicken",
+				"Casting time: 1 action (1 bonus action if Quickened)",
+				"Spell slot: 4th + 1 per Amplify"
+			],
+			"featureType": [
+				"Invocation"
+			]
+		},
+		{
+			"source": "FraysStuff",
+			"name": "Singularity",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 16
+					},
+					"feature": [
+						"Luelle"
+					]
+				}
+			],
+			"entries": [
+				"You create a massive gravitational force at a point within range that pulls on everything in a wide area.",
+				"Within 100 feet of that point, all spaces are difficult terrain, and objects of size Small or smaller are pulled toward the center. If objects would collide with a creature, they must make a Dexterity saving throw or take damage that your DM deems appropriate for the object. Nonmagical objects that reach the center that are any less sturdy than a boulder are likely destroyed.",
+				"Within 50 feet, all sizes of objects are pulled toward the center. Creatures that start their turn in the area must succeed on a Strength saving throw or be pulled 20 feet toward its center.",
+				"Creatures that start their turn within 15 feet of the point are pulled toward the center with no save. A creature that enters this 15 foot sphere for the first time that turn or starts their turn there takes 4d10 force damage and is restrained until it is no longer inside the sphere. A creature can use its action to make a Strength check against your spell save DC, ending this restrained condition on itself or another creature in the sphere that it can reach.",
+				"Base Cost: 12 power",
+				"Transformations Available: Quicken",
+				"Casting time: 1 action (1 bonus action if Quickened)",
+				"Range: 500 feet"
+			],
+			"featureType": [
+				"Invocation"
+			]
 		}
-
 	],
 	"classFeature": [
 		{
