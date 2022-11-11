@@ -1048,6 +1048,35 @@
 		},
 		{
 			"source": "FraysStuff",
+			"name": "Shards of Earth",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 4
+					},
+					"feature": [
+						"Korumi"
+					]
+				}
+			],
+			"entries": [
+				"Sharp spikes of stone or crystal burst forth from the ground within a base radius of 15 feet centered on a point within range. Creatures in the area must make a Dexterity saving throw or take a base 3d6 piercing damage.",
+				"The spikes then shatter into jagged pieces, turning the area into {@quickref difficult terrain||3} for the duration. When a creature moves into or within the area, it takes base 2d4 piercing damage for every 5 feet it travels. At the end of the spell's duration, the stone or crystals crumble away completely unless you use Extend. If you use Extend, the harmful difficult terrain remains after the spell's duration until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand.",
+				"Base Cost: 4 power",
+				"Transformations Available: Amplify, Multiply, Enlarge, Quicken, Extend",
+				"Casting time: 1 action (1 bonus action if Quickened)",
+				"Instantaneous Damage: 3d6 + 1d6 per Amplify",
+				"Movement Damage: 2d4 + 1d4 for every 2nd Amplify",
+				"Range: 100 feet (15-foot radius + 15 feet if Enlarged)",
+				"Duration: Concentration, up to 10 minutes. Read above for effects of Extend",
+				"Effects of Multiply: Create a second 15-foot radius area centered on another point within range and apply the invocation's effects there as well. A creature within both areas is affected by the instantaneous effects only once. A creature moving through a space within both areas is affected by the harmful difficult terrain only once. You can not use Multiply and Enlarge together."
+			],
+			"featureType": [
+				"Invocation"
+			]
+		},
+		{
+			"source": "FraysStuff",
 			"name": "Force Shield",
 			"prerequisite": [
 				{
@@ -1875,7 +1904,7 @@
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"At 17th level, you can assume a form like the embodiment of your Aspect's powers. Using your action, you undergo a transformation for 1 minute and gain the following benefits:",
+				"At 17th level, you can assume a form like the embodiment of your Aspect's powers. Using your action, you undergo a transformation that lasts for 1 minute and gives the following benefits:",
 				{
 					"type": "list",
 					"items": [
