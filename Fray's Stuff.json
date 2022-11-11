@@ -1166,7 +1166,7 @@
 				}
 			],
 			"entries": [
-				"Your power manifests as magical weapons projected from your forearms that you can fight with just like your own hands. Without Amplify, these claws deal 1d4 slashing or bludgeoning damage (you choose with each attack) + 1d4 damage of your Aspect's basic damage type. The claws are considered magical melee weapons which use your Strength modifier, have the light property, and have a range of 5 feet. You can use either one to attack only when that hand is free. You can't be disarmed of these weapons.",
+				"Your power manifests as magical weapons projected from your forearms that you can fight with just like your own hands. Without Amplify, these claws deal 1d4 slashing or bludgeoning damage (you choose with each attack) + 1d4 damage of your Aspect's basic damage type. The claws are considered magical melee weapons which you are proficient with, use your Strength modifier, have the light property, and a range of 5 feet. You can use either one to attack only when that hand is free. You can't be disarmed of these weapons.",
 				"When you use the Amplify transformation on this invocation, the claws gain bonuses to attack and damage rolls, or the damage dice become larger, following this table:",
 				{
 					"type": "table",
@@ -1760,7 +1760,7 @@
 					"type": "entries",
 					"name": "Energy Claws",
 					"entries": [
-						"Your power manifests as magical weapons projected from your forearms that you can fight with just like your own hands. Without Amplify, these claws deal 1d4 slashing or bludgeoning damage (you choose with each attack) + 1d4 damage of your Aspect's basic damage type. The claws are considered magical melee weapons which use your Strength modifier, have the light property, and have a range of 5 feet. You can use either one to attack only when that hand is free. You can't be disarmed of these weapons.",
+						"Your power manifests as magical weapons projected from your forearms that you can fight with just like your own hands. Without Amplify, these claws deal 1d4 slashing or bludgeoning damage (you choose with each attack) + 1d4 damage of your Aspect's basic damage type. The claws are considered magical melee weapons which you are proficient with, use your Strength modifier, have the light property, and a range of 5 feet. You can use either one to attack only when that hand is free. You can't be disarmed of these weapons.",
 						"When you use the Amplify transformation on this invocation, the claws gain bonuses to attack and damage rolls, or the damage dice become larger, following this table:",
 						{
 							"type": "table",
