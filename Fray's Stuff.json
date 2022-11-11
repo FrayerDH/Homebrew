@@ -1625,6 +1625,22 @@
 	],
 	"subclassFeature": [
 		{
+			"name": "Spellcharger Adaptation",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"subclassShortName": "Spellcharger",
+			"subclassSource": "FraysStuff",
+			"level": 3,
+			"entries": [
+				"The Spellcharger Adepts have discovered that their use of magic need not be limited to the elements that their Aspects let them draw on directly. Rather, much more of the catalog of spells is available to them should they just alter their Aspect's energy. Whether perverting the power of their people's forebears in this way is inethical is debatable, but none can argue that it doesn't bring the Spellcharger vastly more variety and utility.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Conversion|Adept|FraysStuff|Incarnate|FraysStuff|3"
+				}
+			]
+		},
+		{
 			"name": "Arcane Conversion",
 			"source": "FraysStuff",
 			"className": "Adept",
@@ -1907,7 +1923,7 @@
 		{
 			"name": "Spellcharger",
 			"subclassFeatures": [
-				"Arcane Conversion|Adept|FraysStuff|Spellcharger|FraysStuff|3",
+				"Spellcharger Adaptation|Adept|FraysStuff|Spellcharger|FraysStuff|3",
 				"Element Warp|Adept|FraysStuff|Spellcharger|FraysStuff|6",
 				"Energy Redirection|Adept|FraysStuff|Spellcharger|FraysStuff|11",
 				"Well of Power|Adept|FraysStuff|Spellcharger|FraysStuff|17"
