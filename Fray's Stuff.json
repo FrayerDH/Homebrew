@@ -5,11 +5,10 @@
 				"json": "FraysStuff",
 				"abbreviation": "FS",
 				"full": "Fray's Stuff",
-				"url": "",
+				"url": "https://github.com/FrayerDH/Homebrew",
 				"authors": [
 					"Frayer"
-				],
-				"convertedBy": []
+				]
 			}
 		]
 	},
@@ -1636,7 +1635,7 @@
 				"The Spellcharger Adepts have discovered that their use of magic need not be limited to the elements that their Aspects let them draw on directly. Rather, much more of the catalog of spells is available to them should they just alter their Aspect's energy. Whether perverting the power of their people's forebears in this way is inethical is debatable, but none can argue that it doesn't bring the Spellcharger vastly more variety and utility.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Conversion|Adept|FraysStuff|Incarnate|FraysStuff|3"
+					"subclassFeature": "Arcane Conversion|Adept|FraysStuff|Spellcharger|FraysStuff|3"
 				}
 			]
 		},
