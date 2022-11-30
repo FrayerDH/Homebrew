@@ -1836,6 +1836,81 @@
 		},
 
 		{
+			"name": "New Moon Adaptation",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"subclassShortName": "New Moon",
+			"subclassSource": "FraysStuff",
+			"level": 3,
+			"entries": [
+				"Using the powers of their aspect to fade from sight, the adepts of Luelle are uniquely able to take on a more cunning and sneaky combat role. Those Luelle Adepts that focus on these skills are called the New Moon Adepts.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Conversion|Adept|FraysStuff|New Moon|FraysStuff|3"
+				}
+			]
+		},
+		{
+			"name": "Sneak Attack",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"subclassShortName": "New Moon",
+			"subclassSource": "FraysStuff",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse weapon, a ranged weapon, or a power attack from an Adeptal Talent or Invocation that only targets one creature.",
+				"You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.",
+				"The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Adept table supplement."
+			]
+		},
+		{
+			"name": "Element Warp",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"subclassShortName": "New Moon",
+			"subclassSource": "FraysStuff",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, your practice in altering your Aspect's energy has taught you to weave your power into more types of energy than just arcane.",
+				"Whenever you deal damage with an invocation or a spell that you cast with your Arcane Conversion feature, you can spend 1 or more power points to convert some of the dice to one of these damage types: acid, cold, fire, lightning, or force. You convert damage dice for each target you damage, up to 3 dice of size d6 or smaller, or two dice of size d8 or larger, multiplied by the number of power points you spent."
+			]
+		},
+		{
+			"name": "Energy Redirection",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"subclassShortName": "New Moon",
+			"subclassSource": "FraysStuff",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, your will has grown strong enough to bend the magic of those around you as well.",
+				"Whenever the effect of an invocation or spell targets you or includes you in its area, you can use your reaction and make a Charisma check to attempt to deflect the spell. The DC equals 10 + the spell's level for spells, or 6 + the power cost for invocations. On a success, the spell does not affect you, appearing to deflect harmlessly away from you.",
+				"Additionally, if you rolled 5 or more higher than the DC, you can spend power points equal to the power points the original caster spent, or the number of power points it would cost you to create a spell slot equal to what the caster spent. If you do, you can choose new targets for the invocation or spell as if you had cast it.",
+				"This ability has two charges. You spend a charge when you successfully deflect an invocation or spell, whether or not you were able to change the targets. You regain the spent charges on a long rest."
+			]
+		},
+		{
+			"name": "Well of Power",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"subclassShortName": "New Moon",
+			"subclassSource": "FraysStuff",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"You gain an additional spell slot that doesn't count against your stored spell slots from Arcane Conversion. If expended, this spell slot is regained when you finish a long rest. The spell slot is 4th level, but it can be upgraded by spending 2 power points per slot level, up to 9th level. It reverts to a 4th level slot after it is expended or when you finish a long rest. You also learn one 7th, one 8th, and one 9th level spell each from the {@filter sorcerer spell list|spells|class=sorcerer} which don't count against the number of spells you can know."
+			]
+		},
+
+		{
 			"name": "Incarnate Adaptation",
 			"source": "FraysStuff",
 			"className": "Adept",
@@ -2038,6 +2113,94 @@
 			],
 			"source": "FraysStuff",
 			"shortName": "Spellcharger",
+			"className": "Adept",
+			"classSource": "FraysStuff"
+		},
+		{
+			"name": "New Moon",
+			"subclassTableGroups": [
+				{
+					"subclasses": [
+						{
+							"name": "New Moon",
+							"source": "FraysStuff"
+						}
+					],
+					"colLabels": [
+						"Sneak Attack"
+					],
+					"rows": [
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						]
+					]
+				}
+			],
+			"subclassFeatures": [
+				"New Moon Adaptation|Adept|FraysStuff|New Moon|FraysStuff|3",
+				"Element Warp|Adept|FraysStuff|New Moon|FraysStuff|6",
+				"Energy Redirection|Adept|FraysStuff|New Moon|FraysStuff|11",
+				"Well of Power|Adept|FraysStuff|New Moon|FraysStuff|17"
+			],
+			"source": "FraysStuff",
+			"shortName": "New Moon",
 			"className": "Adept",
 			"classSource": "FraysStuff"
 		},
