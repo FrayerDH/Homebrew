@@ -1847,7 +1847,7 @@
 				"Using the powers of their aspect to fade from sight, the adepts of Luelle are uniquely able to take on a more cunning and sneaky combat role. Those Luelle Adepts that focus on these skills are called the New Moon Adepts.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Conversion|Adept|FraysStuff|New Moon|FraysStuff|3"
+					"subclassFeature": "Sneak Attack|Adept|FraysStuff|New Moon|FraysStuff|3"
 				}
 			]
 		},
@@ -2146,49 +2146,49 @@
 							"1d6"
 						],
 						[
-							"1d6"
+							"2d6"
 						],
 						[
-							"1d6"
+							"2d6"
 						],
 						[
-							"1d6"
+							"2d6"
 						],
 						[
-							"1d6"
+							"3d6"
 						],
 						[
-							"1d6"
+							"3d6"
 						],
 						[
-							"1d6"
+							"4d6"
 						],
 						[
-							"1d6"
+							"4d6"
 						],
 						[
-							"1d6"
+							"4d6"
 						],
 						[
-							"1d6"
+							"5d6"
 						],
 						[
-							"1d6"
+							"5d6"
 						],
 						[
-							"1d6"
+							"5d6"
 						],
 						[
-							"1d6"
+							"6d6"
 						],
 						[
-							"1d6"
+							"6d6"
 						],
 						[
-							"1d6"
+							"7d6"
 						],
 						[
-							"1d6"
+							"7d6"
 						]
 					]
 				}
