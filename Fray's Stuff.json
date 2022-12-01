@@ -1863,11 +1863,12 @@
 			"entries": [
 				"Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse weapon, a ranged weapon, or a power attack from an Adeptal Talent or Invocation that only targets one creature.",
 				"You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.",
+				"When you use sneak attack with an Adeptal Talent or Invocation, choose any one of the damage types that the Adeptal Talent or Invocation dealt and use that damage type for the sneak attack bonus damage.",
 				"The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Adept table supplement."
 			]
 		},
 		{
-			"name": "Element Warp",
+			"name": "Luelle's Cunning",
 			"source": "FraysStuff",
 			"className": "Adept",
 			"classSource": "FraysStuff",
@@ -1876,8 +1877,35 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, your practice in altering your Aspect's energy has taught you to weave your power into more types of energy than just arcane.",
-				"Whenever you deal damage with an invocation or a spell that you cast with your Arcane Conversion feature, you can spend 1 or more power points to convert some of the dice to one of these damage types: acid, cold, fire, lightning, or force. You convert damage dice for each target you damage, up to 3 dice of size d6 or smaller, or two dice of size d8 or larger, multiplied by the number of power points you spent."
+				"At 6th level, you learn new ways to use your Aspect's power to your advantage in combat. Once per turn, you can use one of the below abilities:",
+				{
+					"type": "entries",
+					"name": "Phantom Feint",
+					"entries": [
+						"When you make an attack roll against a creature within 15 feet of you, you can spend 2 power points to cause an illusory copy of yourself to split from you and appear to make the same attack against the enemy from a different angle. The illusion does no damage, but provides a distraction that gives you advantage on your attack roll. The illusion disappears immediately after your attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gravity Strike",
+					"entries": [
+						"When you deal sneak attack damage to a creature, you can spend 2 power points to launch a burst of force into the attack. The creature is forced to make a Strength saving throw against your power save DC. On a failure, you choose whether it is knocked prone or pushed 10 feet directly away from you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Repel and Escape",
+					"entries": [
+						"You can spend 1 power point and use your bonus action to be able to move without provoking opportunity attacks as if you took the Disengage action. Creatures within 5 feet of you when you activate this, as well as creatures that you move within 5 feet of for the rest of your turn, make a Strength saving throw against your power save DC and are pushed back 5 feet on a failure. Each creature can be pushed back by this only once per turn. If you want to make melee attacks against a creature while this is active, you can choose to have their save and push back happen after your attacks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flash Strike",
+					"entries": [
+						"You can spend 3 power points and your attack to teleport with a flash of light and strike an enemy. You can teleport up to 20 feet to an unoccupied space within 5 feet of another creature and make one weapon attack against that creature. Creatures within 10 feet of your previous location must make a Constitution saving throw against your power save DC or be blinded until the start of your next turn."
+					]
+				}
 			]
 		},
 		{
@@ -2195,7 +2223,7 @@
 			],
 			"subclassFeatures": [
 				"New Moon Adaptation|Adept|FraysStuff|New Moon|FraysStuff|3",
-				"Element Warp|Adept|FraysStuff|New Moon|FraysStuff|6",
+				"Luelle's Cunning|Adept|FraysStuff|New Moon|FraysStuff|6",
 				"Energy Redirection|Adept|FraysStuff|New Moon|FraysStuff|11",
 				"Well of Power|Adept|FraysStuff|New Moon|FraysStuff|17"
 			],
