@@ -1847,8 +1847,25 @@
 				"Using the powers of their aspect to fade from sight, the adepts of Luelle are uniquely able to take on a more cunning and sneaky combat role. Those Luelle Adepts that focus on these skills are called the New Moon Adepts.",
 				{
 					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Adept|FraysStuff|New Moon|FraysStuff|3"
+				},
+				{
+					"type": "refSubclassFeature",
 					"subclassFeature": "Sneak Attack|Adept|FraysStuff|New Moon|FraysStuff|3"
 				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "FraysStuff",
+			"className": "Adept",
+			"classSource": "FraysStuff",
+			"subclassShortName": "New Moon",
+			"subclassSource": "FraysStuff",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you take on this adaptation at 3rd level, you gain proficiency with shortswords, scimitars, rapiers, and the Stealth skill."
 			]
 		},
 		{
@@ -1896,7 +1913,7 @@
 					"type": "entries",
 					"name": "Repel and Escape",
 					"entries": [
-						"You can spend 1 power point and use your bonus action to be able to move without provoking opportunity attacks as if you took the Disengage action. Creatures within 5 feet of you when you activate this, as well as creatures that you move within 5 feet of for the rest of your turn, make a Strength saving throw against your power save DC and are pushed back 5 feet on a failure. Each creature can be pushed back by this only once per turn. If you want to make melee attacks against a creature while this is active, you can choose to have their save and push back happen after your attacks."
+						"You can spend 1 power point and use your bonus action to be able to move without provoking opportunity attacks as if you took the Disengage action. Creatures within 5 feet of you when you activate this, as well as creatures that you move within 5 feet of for the rest of your turn, make a Strength saving throw against your power save DC and are pushed back 5 feet on a failure. Each creature can be forced to make this save only once per turn. If you want to make melee attacks against a creature while this is active, you can choose to have their save and push back happen after your attacks."
 					]
 				},
 				{
@@ -1909,7 +1926,7 @@
 			]
 		},
 		{
-			"name": "Energy Redirection",
+			"name": "Deadly Specter",
 			"source": "FraysStuff",
 			"className": "Adept",
 			"classSource": "FraysStuff",
@@ -1918,10 +1935,10 @@
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"At 11th level, your will has grown strong enough to bend the magic of those around you as well.",
-				"Whenever the effect of an invocation or spell targets you or includes you in its area, you can use your reaction and make a Charisma check to attempt to deflect the spell. The DC equals 10 + the spell's level for spells, or 6 + the power cost for invocations. On a success, the spell does not affect you, appearing to deflect harmlessly away from you.",
-				"Additionally, if you rolled 5 or more higher than the DC, you can spend power points equal to the power points the original caster spent, or the number of power points it would cost you to create a spell slot equal to what the caster spent. If you do, you can choose new targets for the invocation or spell as if you had cast it.",
-				"This ability has two charges. You spend a charge when you successfully deflect an invocation or spell, whether or not you were able to change the targets. You regain the spent charges on a long rest."
+				"At 11th level, you become more deadly when you use your powers to fade into darkness.",
+				"When you become invisible with your Fade Away feature, you no longer lose invisibility from moving or taking damage.",
+				"When you make an attack roll while invisible against a creature that can't see you, the attack is a critical hit on a roll of 18 or higher on the d20.",
+				"When you perform a sneak attack while invisible, add an extra 2d6 to the sneak attack damage."
 			]
 		},
 		{
