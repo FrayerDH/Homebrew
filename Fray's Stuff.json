@@ -355,6 +355,112 @@
 					"any": 1
 				}
 			]
+		},
+		{
+			"name": "Dragonborn (Moonstone)",
+			"source": "FraysStuff",
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"resist": [
+				"radiant"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Moonstone Ancestry",
+					"entries": [
+						"You have a moonstone dragon ancestor. Moonstone dragons are a unique race of dragons found in the Feywilds, forces of mischief, inspiration, and heroism, and masters of dreams. You have powers deriving from them."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Breath Weapon",
+					"entries": [
+						"When you take the {@action Attack} action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot line that is 5 feet wide. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes {@damage 1d10} radiant damage. On a successful save, it takes half as much damage. This damage increases by {@dice 1d10} when you reach 5th level ({@dice 2d10}), 11th level ({@dice 3d10}), and 17th level ({@dice 4d10}).",
+						"You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Draconic Resistance",
+					"entries": [
+						"You have resistance to radiant damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dream Breath",
+					"entries": [
+						"At 5th level, you gain a second breath weapon. When you take the {@action Attack} action on your turn, you can replace one of your attacks with an exhalation of a cloud that looks like sparkling magical dust. This ability functions like the {@spell sleep} spell, cast at a level equal to your proficiency bonus, except that the affected area is a 15-foot cone originating from yourself. Once you use your Dream Breath, you can't do so again until you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dreamwalker",
+					"entries": [
+						"You don't need sleep and magic can't put you to sleep. To gain the benefits of a long rest, you can spend 8 hours engaged in light activity, rather than sleeping during any of it.",
+						"You can put yourself into a semi-conscious dreaming state at will. In this state, you have great control over the setting and constructs of your dream, or you can let your dreams wander. You can attempt to seek guidance from your dreams which might come as images appearing and providing an omen related to your task or the state of the world at the DM's discretion, but it may be cryptic or even false.",
+						"While in your dreaming state, you can focus on another creature you have seen before and can spy into their dreams or draw their sleeping mind into your dream to show them images or speak to them. The other creature must be within 5 miles of you and must be sleeping. To spy on their dreams, they must also not be warded from divination."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			]
 		}
 	],
 	"subrace": [
@@ -1951,7 +2057,8 @@
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"You gain an additional spell slot that doesn't count against your stored spell slots from Arcane Conversion. If expended, this spell slot is regained when you finish a long rest. The spell slot is 4th level, but it can be upgraded by spending 2 power points per slot level, up to 9th level. It reverts to a 4th level slot after it is expended or when you finish a long rest. You also learn one 7th, one 8th, and one 9th level spell each from the {@filter sorcerer spell list|spells|class=sorcerer} which don't count against the number of spells you can know."
+				"Beginning at level 17, your power-fueled ambushes are no longer limited to a single target.",
+				"When you cast an Invocation which makes attack rolls against multiple creatures or which forces creatures within an area to make a save or else take damage, each creature that took damage from the Invocation who would individually be vulnerable to a sneak attack are subject to a special multi-target sneak attack. Each target takes an additional 5d6 damage minus 1d6 for each target after the first, to a minimum of 2d6 each. So, with 2 targets, each takes 4d6 damage; For 3 targets, each takes 3d6, and for 4 or more, each takes 2d6. You can only use this feature if you haven't made a sneak attack this turn, and using this feature consumes your sneak attack for this turn."
 			]
 		},
 
