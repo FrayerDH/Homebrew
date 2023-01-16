@@ -402,7 +402,8 @@
 					"name": "Dreamwalker",
 					"entries": [
 						"You don't need sleep and magic can't put you to sleep. To gain the benefits of a long rest, you can spend 8 hours engaged in light activity, rather than sleeping during any of it.",
-						"You can put yourself into a semi-conscious dreaming state at will. In this state, you have great control over the setting and constructs of your dream, or you can let your dreams wander. You can attempt to seek guidance from your dreams which might come as images appearing and providing an omen related to your task or the state of the world at the DM's discretion, but it may be cryptic or even false.",
+						"You can put yourself into a semi-conscious dreaming state at will. In this state, you have great control over the setting and constructs of your dream, or you can let your dreams wander.",
+						"You can attempt to seek guidance from your dreams. At your DM's discretion, this guidance might come as images appearing and providing an omen related to your task or the state of the world, but it may be cryptic or even false.",
 						"While in your dreaming state, you can focus on another creature you have seen before and can spy into their dreams or draw their sleeping mind into your dream to show them images or speak to them. The other creature must be within 5 miles of you and must be sleeping. To spy on their dreams, they must also not be warded from divination."
 					]
 				},
