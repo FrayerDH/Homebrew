@@ -981,11 +981,6 @@
 				"faces": 8
 			},
 			"casterProgression": "full",
-			"startingProficiencies": {
-				"savingThrows": [
-					"Choose one of: Constitution, Charisma, or Wisdom"
-				]
-			},
 			"classTableGroups": [
 				{
 					"title": "Spell Slots per Spell Level",
@@ -1024,8 +1019,8 @@
 				}
 			],
 			"classFeatures": [
+				"Spellcasting|Prestige Class: Adept|FraysStuff|1",
 				"Rune Lore|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|1",
-				"Runic Magic|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|1",
 				"Runic Discovery|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|2",
 				"Runic Discovery|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|3",
 				"Living Rune|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|4",
@@ -1927,14 +1922,68 @@
 			]
 		},
 		{
-			"name": "Runic Magic",
-			"source": "UAPrestigeClassesRunMagic",
-			"page": 3,
-			"className": "Prestige Class: Rune Scribe",
-			"classSource": "UAPrestigeClassesRunMagic",
+			"name": "Spellcasting",
+			"source": "FraysStuff",
+			"className": "Prestige Class: Adept",
+			"classSource": "FraysStuff",
 			"level": 1,
 			"entries": [
-				"Runes can make use of your own magical power to augment some of their effects. You gain a number of spell slots as specified on the Rune Scribe table, but this prestige class does not grant spells known. Instead, as a rune scribe, you can expend your spell slots to empower runes, as described in the \"{@variantrule Rune Magic|UAPrestigeClassesRunMagic}\" section. For the purpose of multiclassing, to determine your total spell slots, add your levels in rune scribe to your levels in classes that grant you the Spellcasting feature. For example, if you are a rune scribe 4/wizard 6, you would have the spell slots of a 10th-level character, in addition to having the cantrips and spellbook of a 6th-level wizard."
+				"You have learned to draw on your bond with your Aspect to wield their power directly. This takes a form that works similarly to spells cast by other magic users.",
+				{
+					"type": "entries",
+					"name": "Cantrips",
+					"entries": [
+						"At 1st level, you know two cantrips of your choice from the adept spell list. You learn an additional adept cantrip of your choice at 2nd level and another at 4th level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Slots",
+					"entries": [
+						"The Adept table shows how many spell slots you have to cast your {@filter adept spells|spells|class=adept} of 1st level and higher. To cast one of these adept spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+						"For example, if you know the 1st-level spell {@spell burning hands} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell burning hands} using either slot.",
+						"For the purpose of multiclassing, you add your full adept level to your levels in those classes that grant you the Spellcasting feature to determine your number of spell slots. See the Multiclass Spellcaster table in the Player's Handbook."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells Known of 1st Level and Higher",
+					"entries": [
+						"You learn four spells of your choice from the adept spell list when you take this class. You learn two additional adept spells of your choice at each level. Each of these spells must be of a level for which you have spell slots.",
+						"Additionally, when you gain a level in this class or any other class with the Spellcasting feature, you can choose one of the adept spells you know and replace it with another spell from the adept spell list, which also must be of a level for which you have spell slots. You cannot replace a spell on gaining a level with another class if you are using a similar class feature to replace a spell from that class; for example, if you gain a sorcerer level, you can either replace one sorcerer spell you know or one adept spell you know; not both."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"When you gain your first adept level, you choose either Charisma or Wisdom as your spellcasting ability for your adept spells. You use your chosen ability score whenever a spell refers to your spellcasting ability. In addition, you use your chosen ability modifier when setting the saving throw DC for an adept spell you cast and when making an attack roll with one.",
+						{
+							"type": "abilityDc",
+							"name": "Spell",
+							"attributes": [
+								"cha",
+								"wis"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Spell",
+							"attributes": [
+								"cha",
+								"wis"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus and Spell Components",
+					"entries": [
+						"Your spells are not exactly arcane or divine, but something more raw. The power flows directly through you.",
+						"Your own body is considered your spellcasting focus for adept spells. You ignore the verbal and material components of all adept spells you cast."
+					]
+				}
 			]
 		},
 		{
