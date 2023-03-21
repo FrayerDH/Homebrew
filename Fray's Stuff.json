@@ -981,6 +981,11 @@
 				"faces": 8
 			},
 			"casterProgression": "full",
+			"startingProficiencies": {
+				"savingThrows": [
+					"Choose one of: Constitution, Charisma, or Wisdom"
+				]
+			},
 			"classTableGroups": [
 				{
 					"title": "Spell Slots per Spell Level",
