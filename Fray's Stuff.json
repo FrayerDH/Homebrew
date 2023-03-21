@@ -1020,7 +1020,7 @@
 			],
 			"classFeatures": [
 				"Spellcasting|Prestige Class: Adept|FraysStuff|1",
-				"Rune Lore|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|1",
+				"Aspect Damage Types|Prestige Class: Adept|FraysStuff|1",
 				"Runic Discovery|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|2",
 				"Runic Discovery|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|3",
 				"Living Rune|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|4",
@@ -1940,9 +1940,10 @@
 					"type": "entries",
 					"name": "Spell Slots",
 					"entries": [
-						"The Adept table shows how many spell slots you have to cast your {@filter adept spells|spells|class=adept} of 1st level and higher. To cast one of these adept spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-						"For example, if you know the 1st-level spell {@spell burning hands} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell burning hands} using either slot.",
-						"For the purpose of multiclassing, you add your full adept level to your levels in those classes that grant you the Spellcasting feature to determine your number of spell slots. See the Multiclass Spellcaster table in the Player's Handbook."
+						"If you have levels in other classes with the Spellcasting feature, you determine the number of spell slots you have by adding your full adept level to your levels in those classes that grant you the Spellcasting feature. Then, refer to the Multiclass Spellcaster table in the Player's Handbook for the number of spell slots you have to cast your {@filter adept spells|spells|class=adept}.",
+						"If you don't have any levels in other classes with the Spellcasting feature, the Adept table shows how many spell slots you have to cast your {@filter adept spells|spells|class=adept}.",
+						"To cast one of these adept spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+						"For example, if you know the 1st-level spell {@spell burning hands} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell burning hands} using either slot."
 					]
 				},
 				{
@@ -1982,6 +1983,48 @@
 					"entries": [
 						"Your spells are not exactly arcane or divine, but something more raw. The power flows directly through you.",
 						"Your own body is considered your spellcasting focus for adept spells. You ignore the verbal and material components of all adept spells you cast."
+					]
+				}
+			]
+		},
+		{
+			"name": "Aspect Damage Types",
+			"source": "FraysStuff",
+			"className": "Prestige Class: Adept",
+			"classSource": "FraysStuff",
+			"level": 1,
+			"entries": [
+				"Each of the three Aspects are associated with certain types of energy, so the skills of the Adept use those types of energy as well.",
+				"Whenever you cast an adept spell that deals acid, cold, fire, lightning, thunder, force, or radiant damage, you change the damage to the type listed on the table below as the \"Basic\" damage type for your Aspect. The visuals of the spell change to match the new damage type. Some adept class features will also use this damage type.",
+				"Beginning at 3rd level, you can choose to use the \"Extra\" damage type as well. You can convert the entire amount of damage affected by this feature to the \"Extra\" type, or make half of the damage your \"Basic\" type and the remainder your \"Extra\" type.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Aspect",
+						"Basic",
+						"Extra"
+					],
+					"colStyles": [
+						"col-4 text-center",
+						"col-4 text-center",
+						"col-4 text-center"
+					],
+					"rows": [
+						[
+							"Korumi",
+							"Thunder",
+							"Force"
+						],
+						[
+							"Luelle",
+							"Force",
+							"Radiant"
+						],
+						[
+							"Saris",
+							"Fire",
+							"Radiant"
+						]
 					]
 				}
 			]
