@@ -966,6 +966,79 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Prestige Class: Adept",
+			"source": "FraysStuff",
+			"requirements": {
+				"entries": [
+					"{@b Celesti Race.} The powers of the Adept come from a strong bond to a Celesti's Adept, a bond that no other race can form with those forces.",
+					"{@b Charisma or Wisdom 13.} The powers of the Adept can only be awakened by Celesti with strong inherent power, or those with the mindset need to meditate on and explore their connection with their Aspect."
+				]
+			},
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"casterProgression": "full",
+			"classTableGroups": [
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"1st",
+						"2nd",
+						"3rd"
+					],
+					"rowsSpellProgression": [
+						[
+							2,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							2
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Rune Lore|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|1",
+				"Runic Magic|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|1",
+				"Runic Discovery|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|2",
+				"Runic Discovery|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|3",
+				"Living Rune|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|4",
+				"Rune Mastery|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|5",
+				"Runic Discovery|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|5"
+			],
+			"fluff": [
+				{
+					"name": "Rune Scribe",
+					"type": "section",
+					"entries": [
+						"A rune scribe masters the secrets of the runes of power\u2014ancient sigils that embody the fundamental magic of creation. The giants were the first to master rune magic, though many other races eventually stole away or traded for that power.",
+						"Rune magic is exceedingly rare. Some of its secrets have been lost, and what lore remains is jealously guarded. Few rune scribes share their lore with others. Indeed, most rune scribes take on new students only if doing so allows them to gain access to a forgotten or missing rune. The rune scribe prestige class uses the rules for rune magic presented at the end of this article."
+					],
+					"source": "UAPrestigeClassesRunMagic",
+					"page": 2
+				}
+			]
 		}
 	],
 	"optionalfeature": [
@@ -1834,6 +1907,87 @@
 			"entries": [
 				"At 20th level, bending the power of your Aspect with perfect precision comes effortlessly.",
 				"You gain a pool of 8 control points. These points can be spent in place of your power points to apply transformations except Amplify to your invocations. This pool is replenished when you finish a long rest."
+			]
+		},
+
+		{
+			"name": "Rune Lore",
+			"source": "UAPrestigeClassesRunMagic",
+			"page": 3,
+			"className": "Prestige Class: Rune Scribe",
+			"classSource": "UAPrestigeClassesRunMagic",
+			"level": 1,
+			"entries": [
+				"At 1st level, you learn the basics of scribing runes, and are able to activate a master rune's full range of properties when you are properly attuned to it. The \"{@variantrule Rune Magic|UAPrestigeClassesRunMagic}\" section contains information on master runes and descriptions of runes and their properties. The first rune you master is the rune you found and presented to your tutor to qualify for this prestige class. Your entrance to the class includes the process of mastering that rune's secrets."
+			]
+		},
+		{
+			"name": "Runic Magic",
+			"source": "UAPrestigeClassesRunMagic",
+			"page": 3,
+			"className": "Prestige Class: Rune Scribe",
+			"classSource": "UAPrestigeClassesRunMagic",
+			"level": 1,
+			"entries": [
+				"Runes can make use of your own magical power to augment some of their effects. You gain a number of spell slots as specified on the Rune Scribe table, but this prestige class does not grant spells known. Instead, as a rune scribe, you can expend your spell slots to empower runes, as described in the \"{@variantrule Rune Magic|UAPrestigeClassesRunMagic}\" section. For the purpose of multiclassing, to determine your total spell slots, add your levels in rune scribe to your levels in classes that grant you the Spellcasting feature. For example, if you are a rune scribe 4/wizard 6, you would have the spell slots of a 10th-level character, in addition to having the cantrips and spellbook of a 6th-level wizard."
+			]
+		},
+		{
+			"name": "Runic Discovery",
+			"source": "UAPrestigeClassesRunMagic",
+			"page": 3,
+			"className": "Prestige Class: Rune Scribe",
+			"classSource": "UAPrestigeClassesRunMagic",
+			"level": 2,
+			"entries": [
+				"Your continuing study of runic magic allows you to recreate the secrets of new runes without first needing to uncover them. At 2nd level, choose a rare rune. You can attune to that rune even if you do not possess the master rune for it. (See the \"{@variantrule Rune Magic|UAPrestigeClassesRunMagic}\" section for information on rune rarity and master runes.) In order to attune to a rune in this manner, you must spend a short rest doing nothing but meditating on the rune. At the end of the short rest, you are attuned to the rune. You are considered to always have the rune on your person for the purpose of determining whether you can use its features.",
+				"You can spend another short rest doing nothing but meditating on the rune to end your attunement to it."
+			]
+		},
+		{
+			"name": "Runic Discovery",
+			"source": "UAPrestigeClassesRunMagic",
+			"page": 3,
+			"className": "Prestige Class: Rune Scribe",
+			"classSource": "UAPrestigeClassesRunMagic",
+			"level": 3,
+			"entries": [
+				"Your continuing study of runic magic allows you to recreate the secrets of new runes without first needing to uncover them. At 3rd level, choose a rare rune. You can attune to that rune even if you do not possess the master rune for it. (See the \"{@variantrule Rune Magic|UAPrestigeClassesRunMagic}\" section for information on rune rarity and master runes.) In order to attune to a rune in this manner, you must spend a short rest doing nothing but meditating on the rune. At the end of the short rest, you are attuned to the rune. You are considered to always have the rune on your person for the purpose of determining whether you can use its features.",
+				"You can spend another short rest doing nothing but meditating on the rune to end your attunement to it."
+			]
+		},
+		{
+			"name": "Living Rune",
+			"source": "UAPrestigeClassesRunMagic",
+			"page": 3,
+			"className": "Prestige Class: Rune Scribe",
+			"classSource": "UAPrestigeClassesRunMagic",
+			"level": 4,
+			"entries": [
+				"Runes are a part of the living world, and your studies allow you to connect to their magic in increasingly powerful ways. At 4th level, you learn to incorporate rune magic into your identity, allowing you to augment your body and mind. At the end of a long rest, you can choose to increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. At the end of each subsequent long rest, you can alter this choice, reducing the scores you previously increased and improving different scores. (If you chose to increase two abilities, you can opt to alter only one of those choices.)"
+			]
+		},
+		{
+			"name": "Rune Mastery",
+			"source": "UAPrestigeClassesRunMagic",
+			"page": 3,
+			"className": "Prestige Class: Rune Scribe",
+			"classSource": "UAPrestigeClassesRunMagic",
+			"level": 5,
+			"entries": [
+				"At 5th level, you attain the ability to master an ever-greater range of runic magic. When you attune to a rune, you can choose to have it not count toward your limit of attuned magic items. You can be attuned to only one such rune in this manner at a time. You can use this ability again after you end your attunement to a rune."
+			]
+		},
+		{
+			"name": "Runic Discovery",
+			"source": "UAPrestigeClassesRunMagic",
+			"page": 3,
+			"className": "Prestige Class: Rune Scribe",
+			"classSource": "UAPrestigeClassesRunMagic",
+			"level": 5,
+			"entries": [
+				"Your continuing study of runic magic allows you to recreate the secrets of new runes without first needing to uncover them. At 5th level, choose a rare rune. You can attune to that rune even if you do not possess the master rune for it. (See the \"{@variantrule Rune Magic|UAPrestigeClassesRunMagic}\" section for information on rune rarity and master runes.) In order to attune to a rune in this manner, you must spend a short rest doing nothing but meditating on the rune. At the end of the short rest, you are attuned to the rune. You are considered to always have the rune on your person for the purpose of determining whether you can use its features.",
+				"You can spend another short rest doing nothing but meditating on the rune to end your attunement to it."
 			]
 		}
 	],
