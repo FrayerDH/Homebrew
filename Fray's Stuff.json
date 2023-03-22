@@ -1021,12 +1021,19 @@
 			"classFeatures": [
 				"Spellcasting|Prestige Class: Adept|FraysStuff|1",
 				"Aspect Damage Types|Prestige Class: Adept|FraysStuff|1",
-				"Runic Discovery|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|2",
+				{
+					"classFeature": "Adaptation|Prestige Class: Adept|FraysStuff|2",
+					"gainSubclassFeature": true
+				},
 				"Runic Discovery|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|3",
-				"Living Rune|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|4",
+				{
+					"classFeature": "Adaptation feature|Prestige Class: Adept|FraysStuff|4",
+					"gainSubclassFeature": true
+				},
 				"Rune Mastery|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|5",
 				"Runic Discovery|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|5"
 			],
+			"subclassTitle": "Adaptation",
 			"fluff": [
 				{
 					"name": "Rune Scribe",
@@ -1911,17 +1918,6 @@
 		},
 
 		{
-			"name": "Rune Lore",
-			"source": "UAPrestigeClassesRunMagic",
-			"page": 3,
-			"className": "Prestige Class: Rune Scribe",
-			"classSource": "UAPrestigeClassesRunMagic",
-			"level": 1,
-			"entries": [
-				"At 1st level, you learn the basics of scribing runes, and are able to activate a master rune's full range of properties when you are properly attuned to it. The \"{@variantrule Rune Magic|UAPrestigeClassesRunMagic}\" section contains information on master runes and descriptions of runes and their properties. The first rune you master is the rune you found and presented to your tutor to qualify for this prestige class. Your entrance to the class includes the process of mastering that rune's secrets."
-			]
-		},
-		{
 			"name": "Spellcasting",
 			"source": "FraysStuff",
 			"className": "Prestige Class: Adept",
@@ -1994,9 +1990,10 @@
 			"classSource": "FraysStuff",
 			"level": 1,
 			"entries": [
-				"Each of the three Aspects are associated with certain types of energy, so the skills of the Adept use those types of energy as well.",
+				"Each of the three Aspects are associated with certain types of energy, so the skills of the adept use those types of energy as well.",
 				"Whenever you cast an adept spell that deals acid, cold, fire, lightning, thunder, force, or radiant damage, you change the damage to the type listed on the table below as the \"Basic\" damage type for your Aspect. The visuals of the spell change to match the new damage type. Some adept class features will also use this damage type.",
-				"Beginning at 3rd level, you can choose to use the \"Extra\" damage type as well. You can convert the entire amount of damage affected by this feature to the \"Extra\" type, or make half of the damage your \"Basic\" type and the remainder your \"Extra\" type.",
+				"Beginning at 3rd level, you can choose to use the \"Extra\" damage type listed below for your Aspect as well. You can convert the entire amount of damage affected by this feature to the \"Extra\" type, or make half of the damage your \"Basic\" type and the remainder your \"Extra\" type.",
+				"When you cast a spell or use a feature from another of your classes that deals acid, cold, fire, lightning, thunder, force, or radiant damage, you can choose to have those damage types changed in the same way as your adept spells. You can convert damage types from non-adept spells and class features a number of times per long rest equal to your proficiency bonus.",
 				{
 					"type": "table",
 					"colLabels": [
@@ -2030,17 +2027,27 @@
 			]
 		},
 		{
-			"name": "Runic Discovery",
-			"source": "UAPrestigeClassesRunMagic",
-			"page": 3,
-			"className": "Prestige Class: Rune Scribe",
-			"classSource": "UAPrestigeClassesRunMagic",
+			"name": "Adaptation",
+			"source": "FraysStuff",
+			"className": "Prestige Class: Adept",
+			"classSource": "FraysStuff",
 			"level": 2,
 			"entries": [
-				"Your continuing study of runic magic allows you to recreate the secrets of new runes without first needing to uncover them. At 2nd level, choose a rare rune. You can attune to that rune even if you do not possess the master rune for it. (See the \"{@variantrule Rune Magic|UAPrestigeClassesRunMagic}\" section for information on rune rarity and master runes.) In order to attune to a rune in this manner, you must spend a short rest doing nothing but meditating on the rune. At the end of the short rest, you are attuned to the rune. You are considered to always have the rune on your person for the purpose of determining whether you can use its features.",
-				"You can spend another short rest doing nothing but meditating on the rune to end your attunement to it."
+				"You've learned to use the powers your Aspect grants you in more precise ways, allowing you to focus that power into a fighting style called an adaptation.",
+				"At 2nd level, choose an adaptation from the list below. The adaptation you choose grants you features at 2nd and 4th level. Some adaptations are only available for certain Aspects or for adventurers that have levels in certain other classes."
 			]
 		},
+		{
+			"name": "Adaptation feature",
+			"source": "FraysStuff",
+			"className": "Prestige Class: Adept",
+			"classSource": "FraysStuff",
+			"level": 4,
+			"entries": [
+				"At 4th level, you gain a feature granted by your Adaptation."
+			]
+		},
+
 		{
 			"name": "Runic Discovery",
 			"source": "UAPrestigeClassesRunMagic",
@@ -2504,6 +2511,64 @@
 				},
 				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
+		},
+
+		{
+			"name": "Incarnate Adaptation",
+			"source": "FraysStuff",
+			"className": "Prestige Class: Adept",
+			"classSource": "FraysStuff",
+			"subclassShortName": "Incarnate",
+			"subclassSource": "FraysStuff",
+			"level": 2,
+			"entries": [
+				"The Incarnate adepts focus on making themselves into a terrifying force on the battlefield. Not content with simply throwing magic from afar, the Incarnate charges into the fray with a primal ferocity and lets their Aspect's power flow into their strikes.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Charged Strikes|Prestige Class: Adept|FraysStuff|Incarnate|FraysStuff|3"
+				}
+			]
+		},
+		{
+			"name": "Charged Strikes",
+			"source": "FraysStuff",
+			"className": "Prestige Class: Adept",
+			"classSource": "FraysStuff",
+			"subclassShortName": "Incarnate",
+			"subclassSource": "FraysStuff",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"You learn how to channel your Aspect's energy into your hands, turning them into much more deadly weapons.",
+				"Using a bonus action, you can charge one or both of your hands, causing energy shaped like claws, blades, or blunt fists to surround them. You can deactivate the effect on one or both hands without using an action. While this effect is active, the following is true:",
+				{
+					"type": "list",
+					"items": [
+						"You can not carry objects in your charged hands.",
+						"Your unarmed strikes with your charged hands count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
+						"You add 1 to your attack rolls with unarmed strikes using your charged hands",
+						"You can use a d6 for the base damage rolls with unarmed strikes with your charged hands, and the damage type can be slashing or bludgeoning (you choose when you activate this ability).",
+						"You do additional damage with each unarmed strike equal to your spellcasting ability modifier (minimum of 1). This extra damage's type is your Aspect's damage type per the Aspect Damage Types feature.",
+						"You can use a bonus action and spend a spell slot to overcharge your strikes for 1 minute. For the duration, your strikes with your charged hands do an additional 1d4 damage of your Aspect's damage type, and your bonus to attack rolls from this feature changes to +2. The damage increases by 1d4 per level of the spell slot, and the attack roll bonus increases to +3 at 4rd level, and +4 at 7th level."
+					]
+				}
+			]
+		},
+		{
+			"name": "Spellstrike",
+			"source": "FraysStuff",
+			"className": "Prestige Class: Adept",
+			"classSource": "FraysStuff",
+			"subclassShortName": "Incarnate",
+			"subclassSource": "FraysStuff",
+			"level": 4,
+			"header": 2,
+			"entries": [
+				"You learn how to deliver your spells in a much more direct way - through your fist.",
+				"When you must make a spell attack as a result of your adept spells, you can replace one spell attack with an unarmed strike at melee range. On a hit, the target suffers the effects of your unarmed strike and the spell.",
+				"When you affect a cone or line area originating from yourself as a result of your adept spells, you can make an unarmed strike against a creature at the same time. The cone or line will then be drawn from yourself and aimed in the direction of the target of the strike. On a hit, the target suffers the effects of your unarmed strike and automatically fails their Dexterity saving throw from the spell effect if it has one. Hit or miss, the spell still affects that area.",
+				"You can use this feature once per turn and only on your turn. If the spell effect that triggered this feature used a bonus action, it instead uses an action."
+			]
 		}
 	],
 	"subclass": [
@@ -2620,6 +2685,18 @@
 			"source": "FraysStuff",
 			"shortName": "Incarnate",
 			"className": "Adept",
+			"classSource": "FraysStuff"
+		},
+
+		{
+			"name": "Incarnate",
+			"subclassFeatures": [
+				"Incarnate Adaptation|Prestige Class: Adept|FraysStuff|Incarnate|FraysStuff|2",
+				"Spellstrike|Prestige Class: Adept|FraysStuff|Incarnate|FraysStuff|4"
+			],
+			"source": "FraysStuff",
+			"shortName": "Incarnate",
+			"className": "Prestige Class: Adept",
 			"classSource": "FraysStuff"
 		}
 	]
