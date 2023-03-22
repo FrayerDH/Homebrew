@@ -2525,7 +2525,7 @@
 				"The Incarnate adepts focus on making themselves into a terrifying force on the battlefield. Not content with simply throwing magic from afar, the Incarnate charges into the fray with a primal ferocity and lets their Aspect's power flow into their strikes.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Charged Strikes|Prestige Class: Adept|FraysStuff|Incarnate|FraysStuff|3"
+					"subclassFeature": "Charged Strikes|Prestige Class: Adept|FraysStuff|Incarnate|FraysStuff|2"
 				}
 			]
 		},
