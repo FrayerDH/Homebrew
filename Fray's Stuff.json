@@ -1025,7 +1025,7 @@
 					"classFeature": "Adaptation|Prestige Class: Adept|FraysStuff|2",
 					"gainSubclassFeature": true
 				},
-				"Runic Discovery|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|3",
+				"Strengthened Bond|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|3",
 				{
 					"classFeature": "Adaptation feature|Prestige Class: Adept|FraysStuff|4",
 					"gainSubclassFeature": true
@@ -2045,6 +2045,62 @@
 			"level": 4,
 			"entries": [
 				"At 4th level, you gain a feature granted by your Adaptation."
+			]
+		},
+		{
+			"name": "Strengthened Bond",
+			"source": "FraysStuff",
+			"className": "Prestige Class: Adept",
+			"classSource": "FraysStuff",
+			"level": 3,
+			"entries": [
+				"All members of the Celesti race feel some of their Aspect's power passively affecting them, but those effects are even stronger for an adept.",
+				"At 3rd level, some of the racial traits you gain from your Aspect are improved or augmented. One of the below affects you based on your Aspect:",
+				{
+					"type": "entries",
+					"name": "Korumi: Crystallize Magic",
+					"entries": [
+						"You add your proficiency bonus to Constitution, Charisma, Intelligence and Wisdom saving throws made to resist the effects of a spell if you are not already proficient with those saves, and gain a bonus of +2 to your AC when defending against spell attacks.",
+						"Whenever you succeed on a saving throw against a spell by 5 or more higher than the save DC, or when a spell attack misses your AC (excluding temporary increases to your AC) by 5 or more, you absorb the magic, which forms into crystals of magic energy on your body. The crystals persist until the end of your next long rest or until spent. The crystals can be spent in place of a spell slot when you cast an adept spell or use another adept class feature that consumes spell slots. The spell slot level of the crystals equals the level of the spell that you crystallized, or you can choose to absorb less of the spell to form lower level crystals. You can crystallize a maximum number of spell levels in total per long rest equal to 3 + your spellcasting modifier. Even if you can not crystallize any more spells, you still retain the benefits for resisting spells from this feature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Luelle: Forever Floating & Fade Away",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Forever Floating",
+									"entries": [
+										"The bonus action granted by your Effortless Floating racial trait that allows you to float is replaced with the following:",
+										"While not incapacitated, not wearing heavy armor, and not over-encumbered, you float above the ground indefinitely. You make no sound while walking and you ignore difficult terrain, traps triggered by walking on them, and other ground-based effects. If you become incapacitated, don heavy armor, or become over-encumbered, you return to the ground. You can toggle the effect on or off without using any action."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Fade Away",
+									"entries": [
+										"When you use your Wax and Wane racial trait to hide in dim light or darkness, you become invisible. The invisibility ends if you attack, cast a spell, take any damage, or move more than 15 feet per turn.",
+										"If you break your invisibility from this feature by casting an adept spell, any creature affected by the spell that was unaware of your position has a -3 penalty to any saves they make against that spell."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Saris: Raging Inferno",
+					"entries": [
+						"All of your movement speeds are increased by 10 feet up to a maximum of 40 feet.",
+						"You can enter your superheated state from your Hot-Blooded racial trait as a bonus action, ignoring the build-up normally required.",
+						"While superheated, creatures within 10 feet of you at the start of their turn take damage from your Hot-blooded trait as if they had touched you. When you take the Dash or Disengage action, any creature that is within 10 feet of you at any point during your movement takes damage from your Hot-blooded trait as if they had touched you. This feature doesn't increase the maximum damage a creature can take from the Hot-Blooded trait per turn. You can choose any number of creatures to not be affected by this damage.",
+						"Creatures that took damage from your Hot-Blooded racial trait since your last turn take a -2 penalty to any saves they make against your adept spells until the end of your turn."
+					]
+				}
 			]
 		},
 
