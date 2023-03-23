@@ -1030,20 +1030,18 @@
 					"classFeature": "Adaptation feature|Prestige Class: Adept|FraysStuff|4",
 					"gainSubclassFeature": true
 				},
-				"Rune Mastery|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|5",
-				"Runic Discovery|Prestige Class: Rune Scribe|UAPrestigeClassesRunMagic|5"
+				"Avatar|Prestige Class: Adept|FraysStuff|5"
 			],
 			"subclassTitle": "Adaptation",
 			"fluff": [
 				{
-					"name": "Rune Scribe",
+					"name": "Adept",
 					"type": "section",
 					"entries": [
-						"A rune scribe masters the secrets of the runes of power\u2014ancient sigils that embody the fundamental magic of creation. The giants were the first to master rune magic, though many other races eventually stole away or traded for that power.",
-						"Rune magic is exceedingly rare. Some of its secrets have been lost, and what lore remains is jealously guarded. Few rune scribes share their lore with others. Indeed, most rune scribes take on new students only if doing so allows them to gain access to a forgotten or missing rune. The rune scribe prestige class uses the rules for rune magic presented at the end of this article."
+						"All members of the Celesti race have a connection to their Aspect, one of the three celestial bodies in the system of their home world. For most, this connection manifests in some relatively minor, passive boons.",
+						"There are a rare few Celesti that grow a stronger connection. Some are simply born with this bond, while others spend their lives meditating on their link to the Aspects and deepen their connection themselves. These Celesti are called Adepts, and are capable of actively invoking their Aspect's power to produce powerful magic and to increase the strength of those passive boons beyond the norm."
 					],
-					"source": "UAPrestigeClassesRunMagic",
-					"page": 2
+					"source": "FraysStuff"
 				}
 			]
 		}
@@ -2038,16 +2036,6 @@
 			]
 		},
 		{
-			"name": "Adaptation feature",
-			"source": "FraysStuff",
-			"className": "Prestige Class: Adept",
-			"classSource": "FraysStuff",
-			"level": 4,
-			"entries": [
-				"At 4th level, you gain a feature granted by your Adaptation."
-			]
-		},
-		{
 			"name": "Strengthened Bond",
 			"source": "FraysStuff",
 			"className": "Prestige Class: Adept",
@@ -2101,6 +2089,68 @@
 						"Creatures that took damage from your Hot-Blooded racial trait since your last turn take a -2 penalty to any saves they make against your adept spells until the end of your turn."
 					]
 				}
+			]
+		},
+		{
+			"name": "Adaptation feature",
+			"source": "FraysStuff",
+			"className": "Prestige Class: Adept",
+			"classSource": "FraysStuff",
+			"level": 4,
+			"entries": [
+				"At 4th level, you gain a feature granted by your Adaptation."
+			]
+		},
+		{
+			"name": "Avatar",
+			"source": "FraysStuff",
+			"className": "Prestige Class: Adept",
+			"classSource": "FraysStuff",
+			"level": 5,
+			"entries": [
+				"At 5th level, you can assume a form like the embodiment of your Aspect's powers. Using your action, you undergo a transformation that lasts for 1 minute and gives the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can convert any bludgeoning, piercing, and slashing damage you deal into magic damage of either of your Aspect's damage types.",
+						"The range of your melee attacks and adept spells with a range of Touch increases by 5 feet.",
+						"You can use your spellcasting modifier for weapon and unarmed attacks.",
+						"When you cast an adept spell that has a casting time of 1 action, you can cast it using your bonus action instead.",
+						"The first two adept spells of 6th level or lower that you cast during the transformation don't consume a spell slot.",
+						"You gain immunity to damage of both of your Aspect's damage types."
+					]
+				},
+				"You also gain one of the following benefits when you transform based on your Aspect:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Korumi",
+							"entries": [
+								"Each time you hit a creature with an attack or a creature fails a Dexterity saving throw against one of your spells, that creature must make a Strength saving throw against your spell save DC or be knocked prone."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Luelle",
+							"entries": [
+								"You emit bright light to a range of 45 feet and dim light for another 45 feet.",
+								"You have a 15-foot sphere of blinding light around you. When a creature other than you enters the area (including if you move toward them) or begins their turn there, they must make a Constitution saving throw against your spell save DC or be blinded until they move out of the area or your transformation ends.",
+								"Both of these sources of light are suppressed while you are invisible."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Saris",
+							"entries": [
+								"You emit bright light to a range of 30 feet and dim light for another 30 feet.",
+								"Whenever a creature within 15 feet of you makes an attack against you or one of your companions, a flare of solar energy lashes out at the attacker, dealing 1d8 fire damage and imposing disadvantage on the attack roll."
+							]
+						}
+					]
+				},
+				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		},
 
