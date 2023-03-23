@@ -972,8 +972,9 @@
 			"source": "FraysStuff",
 			"requirements": {
 				"entries": [
-					"{@b Celesti Race.} The powers of the Adept come from a strong bond to a Celesti's Adept, a bond that no other race can form with those forces.",
-					"{@b Charisma or Wisdom 13.} The powers of the Adept can only be awakened by Celesti with strong inherent power, or those with the mindset need to meditate on and explore their connection with their Aspect."
+					"{@b Celesti Race.} The powers of the adept come from a strong bond to a Celesti's Adept, a bond that no other race can form with those forces.",
+					"{@b Character Level.} Only those with some experience can awaken their adept powers. You must be a 3rd-level character to take your first adept level. See the Level Requirements feature for the level requirements of further adept levels.",
+					"{@b Charisma or Wisdom 13.} The powers of the adept can only be awakened by Celesti with strong inherent power, or those with the mindset need to meditate on and explore their connection with their Aspect."
 				]
 			},
 			"hd": {
@@ -1019,6 +1020,7 @@
 				}
 			],
 			"classFeatures": [
+				"Level Requirements|Prestige Class: Adept|FraysStuff|1",
 				"Spellcasting|Prestige Class: Adept|FraysStuff|1",
 				"Aspect Damage Types|Prestige Class: Adept|FraysStuff|1",
 				{
@@ -1916,6 +1918,49 @@
 		},
 
 		{
+			"name": "Level Requirements",
+			"source": "FraysStuff",
+			"className": "Prestige Class: Adept",
+			"classSource": "FraysStuff",
+			"level": 1,
+			"entries": [
+				"The powers of the adept can't be invoked by novices. You must meet a minimum required character level before taking each adept level, per the table below.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Adept Level",
+						"Required Character Level"
+					],
+					"colStyles": [
+						"col-4 text-center",
+						"col-4 text-center"
+					],
+					"rows": [
+						[
+							"1st",
+							"3rd"
+						],
+						[
+							"2nd",
+							"6th"
+						],
+						[
+							"3rd",
+							"9th"
+						],
+						[
+							"4th",
+							"12th"
+						],
+						[
+							"5th",
+							"15th"
+						]
+					]
+				}
+			]
+		},
+		{
 			"name": "Spellcasting",
 			"source": "FraysStuff",
 			"className": "Prestige Class: Adept",
@@ -2151,53 +2196,6 @@
 					]
 				},
 				"Once you use this feature, you can't use it again until you finish a long rest."
-			]
-		},
-
-		{
-			"name": "Runic Discovery",
-			"source": "UAPrestigeClassesRunMagic",
-			"page": 3,
-			"className": "Prestige Class: Rune Scribe",
-			"classSource": "UAPrestigeClassesRunMagic",
-			"level": 3,
-			"entries": [
-				"Your continuing study of runic magic allows you to recreate the secrets of new runes without first needing to uncover them. At 3rd level, choose a rare rune. You can attune to that rune even if you do not possess the master rune for it. (See the \"{@variantrule Rune Magic|UAPrestigeClassesRunMagic}\" section for information on rune rarity and master runes.) In order to attune to a rune in this manner, you must spend a short rest doing nothing but meditating on the rune. At the end of the short rest, you are attuned to the rune. You are considered to always have the rune on your person for the purpose of determining whether you can use its features.",
-				"You can spend another short rest doing nothing but meditating on the rune to end your attunement to it."
-			]
-		},
-		{
-			"name": "Living Rune",
-			"source": "UAPrestigeClassesRunMagic",
-			"page": 3,
-			"className": "Prestige Class: Rune Scribe",
-			"classSource": "UAPrestigeClassesRunMagic",
-			"level": 4,
-			"entries": [
-				"Runes are a part of the living world, and your studies allow you to connect to their magic in increasingly powerful ways. At 4th level, you learn to incorporate rune magic into your identity, allowing you to augment your body and mind. At the end of a long rest, you can choose to increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. At the end of each subsequent long rest, you can alter this choice, reducing the scores you previously increased and improving different scores. (If you chose to increase two abilities, you can opt to alter only one of those choices.)"
-			]
-		},
-		{
-			"name": "Rune Mastery",
-			"source": "UAPrestigeClassesRunMagic",
-			"page": 3,
-			"className": "Prestige Class: Rune Scribe",
-			"classSource": "UAPrestigeClassesRunMagic",
-			"level": 5,
-			"entries": [
-				"At 5th level, you attain the ability to master an ever-greater range of runic magic. When you attune to a rune, you can choose to have it not count toward your limit of attuned magic items. You can be attuned to only one such rune in this manner at a time. You can use this ability again after you end your attunement to a rune."
-			]
-		},
-		{
-			"name": "Runic Discovery",
-			"source": "UAPrestigeClassesRunMagic",
-			"page": 3,
-			"className": "Prestige Class: Rune Scribe",
-			"classSource": "UAPrestigeClassesRunMagic",
-			"level": 5,
-			"entries": [
-				"Your continuing study of runic magic allows you to recreate the secrets of new runes without first needing to uncover them. At 5th level, choose a rare rune. You can attune to that rune even if you do not possess the master rune for it. (See the \"{@variantrule Rune Magic|UAPrestigeClassesRunMagic}\" section for information on rune rarity and master runes.) In order to attune to a rune in this manner, you must spend a short rest doing nothing but meditating on the rune. At the end of the short rest, you are attuned to the rune. You are considered to always have the rune on your person for the purpose of determining whether you can use its features.",
-				"You can spend another short rest doing nothing but meditating on the rune to end your attunement to it."
 			]
 		}
 	],
@@ -2628,6 +2626,7 @@
 			"subclassSource": "FraysStuff",
 			"level": 2,
 			"entries": [
+				"{@i Requirement: 3 levels in any martial classes.}",
 				"The Incarnate adepts focus on making themselves into a terrifying force on the battlefield. Not content with simply throwing magic from afar, the Incarnate charges into the fray with a primal ferocity and lets their Aspect's power flow into their strikes.",
 				{
 					"type": "refSubclassFeature",
