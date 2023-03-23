@@ -1068,7 +1068,7 @@
 				"Move Earth",
 				"Sunbeam",
 
-				"Crown of Stars",
+				"Crown of Stars|XGE",
 				"Delayed Blast Fireball",
 				"Fire Storm",
 				"Reverse Gravity",
@@ -1079,7 +1079,7 @@
 				"Sunburst",
 
 				"Meteor Swarm",
-				"Ravenous Void"
+				"Ravenous Void|EGW"
 			],
 			"cantripProgression": [
 				2,
