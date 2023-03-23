@@ -983,15 +983,103 @@
 			},
 			"casterProgression": "full",
 			"classSpells" : [
-				"Fire Bolt",
-				"Eldritch Blast",
-				"Green-Flame Blade|TCE",
+
+				"Control Flames|XGE",
+				"Create Bonfire|XGE",
 				"Dancing Lights",
+				"Eldritch Blast",
+				"Fire Bolt",
+				"Green-Flame Blade|TCE",
+				"Light",
+				"Mage Hand",
+				"Mold Earth|XGE",
+				"Sacred Flame",
+				"Thaumaturgy",
 				"Thunderclap|XGE",
+				"Word of Radiance|XGE",
+
+				"Absorb Elements|XGE",
 				"Armor of Agathys",
 				"Burning Hands",
+				"Catapult|XGE",
+				"Color Spray",
 				"Earth Tremor|XGE",
-				"Guiding Bolt"
+				"Faerie Fire",
+				"Feather Fall",
+				"Guiding Bolt",
+				"Ice Knife|XGE",
+				"Jump",
+				"Longstrider",
+				"Magic Missile",
+				"Magnify Gravity|EGW",
+				"Searing Smite",
+				"Shield",
+				"Thunderous Smite",
+				"Thunderwave",
+				"Zephyr Strike|XGE",
+
+				"Aganazzar's Scorcher|XGE",
+				"Blur",
+				"Branding Smite",
+				"Darkness",
+				"Dragon's Breath|XGE",
+				"Flame Blade",
+				"Flaming Sphere",
+				"Levitate",
+				"Maximilian's Earthen Grasp|XGE",
+				"Moonbeam",
+				"Pass without Trace",
+				"Scorching Ray",
+				"Shatter",
+
+				"Ashardalon's Stride|FTD",
+				"Blinding Smite",
+				"Daylight",
+				"Elemental Weapon",
+				"Erupting Earth|XGE",
+				"Fireball",
+				"Fly",
+				"Melf's Minute Meteors|XGE",
+				"Pulse Wave|EGW",
+
+				"Elemental Bane|XGE",
+				"Fire Shield",
+				"Gravity Sinkhole|EGW",
+				"Fire Storm",
+				"Stone Shape",
+				"Stoneskin",
+				"Storm Sphere|XGE",
+				"Wall of Fire",
+
+				"Cone of Cold",
+				"Dawn|XGE",
+				"Destructive Wave",
+				"Flame Strike",
+				"Holy Weapon|XGE",
+				"Immolation|XGE",
+				"Telekinesis",
+				"Transmute Rock|XGE",
+				"Wall of Light|XGE",
+				"Wall of Stone",
+
+				"Bones of the Earth|XGE",
+				"Fizban's Platinum Shield|FTD",
+				"Gravity Fissure|EGW",
+				"Move Earth",
+				"Sunbeam",
+
+				"Crown of Stars",
+				"Delayed Blast Fireball",
+				"Fire Storm",
+				"Reverse Gravity",
+
+				"Dark Star|EGW",
+				"Earthquake",
+				"Incendiary Cloud",
+				"Sunburst",
+
+				"Meteor Swarm",
+				"Ravenous Void"
 			],
 			"cantripProgression": [
 				2,
@@ -2071,10 +2159,12 @@
 				},
 				{
 					"type": "entries",
-					"name": "Spellcasting Focus and Spell Components",
+					"name": "Aspect Magic Differences",
 					"entries": [
-						"Your spells are not exactly arcane or divine, but something more raw. The power flows directly through you.",
-						"Your own body is considered your spellcasting focus for adept spells. You ignore the verbal and material components of all adept spells you cast."
+						"Your spells are not exactly arcane or divine, but something more raw, flowing directly through you. Thus, your spells work differently than they do for other spell casters.",
+						"Your own body is considered your spellcasting focus for adept spells.",
+						"You ignore the verbal and material components of all adept spells you cast.",
+						"Spells that impart a beneficial effect to a target only work when used on yourself. Spells that apply an effect to a weapon or other piece of equipment only function when you use the weapon or equipment."
 					]
 				}
 			]
@@ -2087,7 +2177,7 @@
 			"level": 1,
 			"entries": [
 				"Each of the three Aspects are associated with certain types of energy, so the skills of the adept use those types of energy as well.",
-				"Whenever you cast an adept spell that deals acid, cold, fire, lightning, thunder, force, or radiant damage, you change the damage to the type listed on the table below as the \"Basic\" damage type for your Aspect. Some adept class features will also use this damage type. The visuals of the spell or feature change to match the new damage type. At your DM's discretion, effects from a spell that no longer make sense with the new damage type (such as an opponent being slowed by the frost damage of the original spell) are ignored.",
+				"When you cast an adept spell that deals acid, cold, fire, lightning, thunder, force, or radiant damage, you change the damage to the type listed on the table below as the \"Basic\" damage type for your Aspect. When you cast a spell that lets you choose a damage type for some other spell effect, you choose your \"Basic\" damage even if the spell doesn't list that damage type in its description. Some adept class features will also use this damage type. The visuals of the spell or feature change to match the new damage type. At your DM's discretion, effects from a spell that no longer make sense with the new damage type (such as an opponent being slowed by the frost damage of the original spell) are ignored.",
 				"Beginning at 3rd level, you can choose to use the \"Extra\" damage type listed below for your Aspect as well. You can convert the entire amount of damage affected by this feature to the \"Extra\" type, or make half of the damage your \"Basic\" type and the remainder your \"Extra\" type.",
 				"When you cast a spell or use a feature from another of your classes that deals acid, cold, fire, lightning, thunder, force, or radiant damage, you can choose to have those damage types changed in the same way as your adept spells. You can convert damage types from non-adept spells and class features a number of times per long rest equal to your proficiency bonus.",
 				{
