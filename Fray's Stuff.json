@@ -982,6 +982,31 @@
 				"faces": 8
 			},
 			"casterProgression": "full",
+			"classSpells" : [
+				"Fire Bolt",
+				"Eldritch Blast",
+				"Green-Flame Blade|TCE",
+				"Dancing Lights",
+				"Thunderclap|XGE",
+				"Armor of Agathys",
+				"Burning Hands",
+				"Earth Tremor|XGE",
+				"Guiding Bolt"
+			],
+			"cantripProgression": [
+				2,
+				3,
+				3,
+				4,
+				4
+			],
+			"spellsKnownProgression": [
+				4,
+				6,
+				8,
+				10,
+				12
+			],
 			"classTableGroups": [
 				{
 					"colLabels": [
@@ -2061,7 +2086,7 @@
 			"level": 1,
 			"entries": [
 				"Each of the three Aspects are associated with certain types of energy, so the skills of the adept use those types of energy as well.",
-				"Whenever you cast an adept spell that deals acid, cold, fire, lightning, thunder, force, or radiant damage, you change the damage to the type listed on the table below as the \"Basic\" damage type for your Aspect. The visuals of the spell change to match the new damage type. Some adept class features will also use this damage type.",
+				"Whenever you cast an adept spell that deals acid, cold, fire, lightning, thunder, force, or radiant damage, you change the damage to the type listed on the table below as the \"Basic\" damage type for your Aspect. Some adept class features will also use this damage type. The visuals of the spell or feature change to match the new damage type. At your DM's discretion, effects from a spell that no longer make sense with the new damage type (such as an opponent being slowed by the frost damage of the original spell) are ignored.",
 				"Beginning at 3rd level, you can choose to use the \"Extra\" damage type listed below for your Aspect as well. You can convert the entire amount of damage affected by this feature to the \"Extra\" type, or make half of the damage your \"Basic\" type and the remainder your \"Extra\" type.",
 				"When you cast a spell or use a feature from another of your classes that deals acid, cold, fire, lightning, thunder, force, or radiant damage, you can choose to have those damage types changed in the same way as your adept spells. You can convert damage types from non-adept spells and class features a number of times per long rest equal to your proficiency bonus.",
 				{
