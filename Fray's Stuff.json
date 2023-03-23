@@ -984,6 +984,34 @@
 			"casterProgression": "full",
 			"classTableGroups": [
 				{
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|class=adept}",
+						"{@filter Spells Known|spells|class=adept}"
+					],
+					"rows": [
+						[
+							2,
+							4
+						],
+						[
+							3,
+							6
+						],
+						[
+							3,
+							8
+						],
+						[
+							4,
+							10
+						],
+						[
+							4,
+							12
+						]
+					]
+				},
+				{
 					"title": "Spell Slots per Spell Level",
 					"colLabels": [
 						"1st",
@@ -1037,11 +1065,10 @@
 			"subclassTitle": "Adaptation",
 			"fluff": [
 				{
-					"name": "Adept",
+					"name": "The Aspect Adept",
 					"type": "section",
 					"entries": [
-						"All members of the Celesti race have a connection to their Aspect, one of the three celestial bodies in the system of their home world. For most, this connection manifests in some relatively minor, passive boons.",
-						"There are a rare few Celesti that grow a stronger connection. Some are simply born with this bond, while others spend their lives meditating on their link to the Aspects and deepen their connection themselves. These Celesti are called Adepts, and are capable of actively invoking their Aspect's power to produce powerful magic and to increase the strength of those passive boons beyond the norm."
+						"Every member of the Celesti race are born of one of the three Aspects, a link to one of the three celestial bodies of their home world's system: Saris, Luelle, and Korum. Their link allows them to passively and subconsciously draw on the power of that celestial body to give them some small amount of supernatural ability. A few of the Celsti, however, are born with a deeper connection, or strengthen their connection through rituals and meditation, and are able to invoke the power of their Aspect directly. They are called the Adepts."
 					],
 					"source": "FraysStuff"
 				}
@@ -2173,7 +2200,7 @@
 							"type": "entries",
 							"name": "Korumi",
 							"entries": [
-								"Each time you hit a creature with an attack or a creature fails a Dexterity saving throw against one of your spells, that creature must make a Strength saving throw against your spell save DC or be knocked prone."
+								"Each time you hit a creature with an attack or a creature fails a Dexterity saving throw against one of your spells, that creature must make a Strength saving throw against your spell save DC or be knocked prone and incapacitated until the end of their next turn."
 							]
 						},
 						{
@@ -2181,7 +2208,7 @@
 							"name": "Luelle",
 							"entries": [
 								"You emit bright light to a range of 45 feet and dim light for another 45 feet.",
-								"You have a 15-foot sphere of blinding light around you. When a creature other than you enters the area (including if you move toward them) or begins their turn there, they must make a Constitution saving throw against your spell save DC or be blinded until they move out of the area or your transformation ends.",
+								"You have a 15-foot radius sphere of blinding light around you. When a creature other than you enters the area (including if you move toward them) or begins their turn there, they must make a Constitution saving throw against your spell save DC or become blinded. They can repeat the saving throw to remove the effect at the end of each of their turns if they are not still in the area. They automatically succeed on that save if your transformation has ended.",
 								"Both of these sources of light are suppressed while you are invisible."
 							]
 						},
