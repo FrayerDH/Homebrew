@@ -2159,12 +2159,12 @@
 				},
 				{
 					"type": "entries",
-					"name": "Aspect Magic Differences",
+					"name": "Adept Magic Differences",
 					"entries": [
 						"Your spells are not exactly arcane or divine, but something more raw, flowing directly through you. Thus, your spells work differently than they do for other spell casters.",
 						"Your own body is considered your spellcasting focus for adept spells.",
 						"You ignore the verbal and material components of all adept spells you cast.",
-						"Spells that impart a beneficial effect to a target only work when used on yourself. Spells that apply an effect to a weapon or other piece of equipment only function when you use the weapon or equipment."
+						"Certain spells that impart beneficial effects can only be cast on yourself: dragon's breath (more later). Spells that apply an effect to a weapon or other piece of equipment only function when you use the weapon or equipment."
 					]
 				}
 			]
