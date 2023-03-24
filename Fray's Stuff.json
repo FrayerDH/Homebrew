@@ -2107,7 +2107,7 @@
 			"classSource": "FraysStuff",
 			"level": 1,
 			"entries": [
-				"You have learned to draw on your bond with your Aspect to wield their power directly. This takes a form that works similarly to spells cast by other magic users.",
+				"You have learned to draw on your bond with your Aspect to wield their power directly. This takes a form that works similarly to spells cast by other magic users. See {@book chapter 10 of the Player's Handbook|PHB|10} for the general rules of spellcasting.",
 				{
 					"type": "entries",
 					"name": "Cantrips",
@@ -2119,7 +2119,7 @@
 					"type": "entries",
 					"name": "Spell Slots",
 					"entries": [
-						"If you have levels in other classes with the Spellcasting feature, you determine the number of spell slots you have by adding your full adept level to your levels in those classes that grant you the Spellcasting feature. Then, refer to the Multiclass Spellcaster table in the Player's Handbook for the number of spell slots you have to cast your {@filter adept spells|spells|class=adept}.",
+						"If you have levels in other classes with the Spellcasting feature, refer to the \"Spellcasting\" subsection of the \"Multiclassing\" section in {@book chapter 6 of the Player's Handbook|PHB|6} to determine your available spell slots, adding your full adept level to your levels in other spellcasting classes.",
 						"If you don't have any levels in other classes with the Spellcasting feature, the Adept table shows how many spell slots you have to cast your {@filter adept spells|spells|class=adept}.",
 						"To cast one of these adept spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
 						"For example, if you know the 1st-level spell {@spell burning hands} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell burning hands} using either slot."
@@ -2797,7 +2797,7 @@
 						"You add 1 to your attack rolls with unarmed strikes using your charged hands",
 						"You can use a d6 for the base damage rolls with unarmed strikes with your charged hands, and the damage type can be slashing or bludgeoning (you choose when you activate this ability).",
 						"You do additional damage with each unarmed strike equal to your spellcasting ability modifier (minimum of 1). This extra damage's type is your Aspect's damage type per the Aspect Damage Types feature.",
-						"You can use a bonus action and spend a spell slot to overcharge your strikes for 1 minute. For the duration, your strikes with your charged hands do an additional 1d4 damage of your Aspect's damage type, and your bonus to attack rolls from this feature changes to +2. The damage increases by 1d4 per level of the spell slot, and the attack roll bonus increases to +3 at 4rd level, and +4 at 7th level."
+						"You can use a bonus action and spend a spell slot to overcharge your strikes for 1 minute. For the duration, your strikes with your charged hands do an additional {@dice 1d4} damage of your Aspect's damage type, and your bonus to attack rolls from this feature changes to +2. The damage increases by {@dice 1d4} per level of the spell slot, and the attack roll bonus increases to +3 at 4rd level, and +4 at 7th level."
 					]
 				}
 			]
@@ -2860,7 +2860,7 @@
 					"type": "entries",
 					"name": "Gravity Strike",
 					"entries": [
-						"When you deal Sneak Attack damage to a creature, you can spend a spell slot to launch a burst of force into the attack. The creature is forced to make a Strength saving throw against your power save DC. On a failure, the target is dealt 2d6 force damage, pushed 10 feet away from you, and knocked prone. For each level of the spell slot spent beyond 1st, this ability deals 1d6 more damage and you can push the target an additional 5 feet further from you."
+						"When you deal Sneak Attack damage to a creature, you can spend a spell slot to launch a burst of force into the attack. The creature is forced to make a Strength saving throw against your power save DC. On a failure, the target is dealt {@dice 2d6} force damage, pushed 10 feet away from you, and knocked prone. For each level of the spell slot spent beyond 1st, this ability deals {@dice 1d6} more damage and you can push the target an additional 5 feet further from you."
 					]
 				},
 				{
@@ -2885,7 +2885,7 @@
 				"At 4th level, you become more deadly when you use your powers to fade into darkness.",
 				"When you become invisible with your Fade Away feature, you no longer lose invisibility from moving or taking damage.",
 				"When you make a melee attack while invisible against a creature that can't detect you, the attack is a critical hit on a roll of 18 or higher on the d20.",
-				"When you perform a sneak attack while invisible, add an extra 2d6 to the sneak attack damage, and you can convert the damage type of any number of your sneak attack damage dice to force or radiant."
+				"When you perform a sneak attack while invisible, add an extra {@dice 2d6} to the sneak attack damage, and you can convert the damage type of any number of your sneak attack damage dice to force or radiant."
 			]
 		}
 	],
