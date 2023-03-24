@@ -2817,6 +2817,76 @@
 				"When you affect a cone or line area originating from yourself as a result of your adept spells, you can make an unarmed strike against a creature at the same time. The cone or line will then be drawn from yourself and aimed in the direction of the target of the strike. On a hit, the target suffers the effects of your unarmed strike and automatically fails their Dexterity saving throw from the spell effect if it has one. Hit or miss, the spell still affects that area.",
 				"You can use this feature once per turn and only on your turn. If the spell effect that triggered this feature used a bonus action, it instead uses an action."
 			]
+		},
+
+		{
+			"name": "New Moon Adaptation",
+			"source": "FraysStuff",
+			"className": "Prestige Class: Adept",
+			"classSource": "FraysStuff",
+			"subclassShortName": "Incarnate",
+			"subclassSource": "FraysStuff",
+			"level": 2,
+			"entries": [
+				"{@i Requirement: Luelle Aspect, Sneak Attack feature from another class.}",
+				"Using the powers of their aspect to fade from sight, the adepts of Luelle are uniquely able to take on a more cunning and sneaky combat role. Those Luelle adepts that focus on these skills are called the New Moon adepts.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Luelle's Cunning|Prestige Class: Adept|FraysStuff|New Moon|FraysStuff|2"
+				}
+			]
+		},
+		{
+			"name": "Luelle's Cunning",
+			"source": "FraysStuff",
+			"className": "Prestige Class: Adept",
+			"classSource": "FraysStuff",
+			"subclassShortName": "New Moon",
+			"subclassSource": "FraysStuff",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"You learn how to use your adept powers to support a more cunning and lethal fighting style.",
+				"Your damaging adept spells that make a spell attack can trigger a Sneak Attack as if they were finesse weapon attacks as long as the other requirements for a Sneak Attack are met. Choose any one damage type that the spell did for your sneak attack damage.",
+				"Additionally, you learn the following abilities. You can use only one of these per turn, and can't use them on a turn where you used a spell.",
+				{
+					"type": "entries",
+					"name": "Phantom Feint",
+					"entries": [
+						"You spend one spell slot to activate this ability when you make an attack. The effect lasts for one turn per level of the spell slot. Each time you attack for the duration, you glow brightly and cause illusory glowing copies to split off from you and appear to make the same attack from different angles. The illusions do no damage, but provide a distraction that gives you advantage on your attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gravity Strike",
+					"entries": [
+						"When you deal Sneak Attack damage to a creature, you can spend a spell slot to launch a burst of force into the attack. The creature is forced to make a Strength saving throw against your power save DC. On a failure, the target is dealt 2d6 force damage, pushed 10 feet away from you, and knocked prone. For each level of the spell slot spent beyond 1st, this ability deals 1d6 more damage and you can push the target an additional 5 feet further from you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flying Weapons",
+					"entries": [
+						"You spend a spell slot using your bonus action to activate this ability for a number of minutes equal to the spell slot level. For the duration, your attacks with thrown weapons don't have disadvantage at long range, weapons without a Thrown property gain the Thrown property with a maximum range of 40 ft, thrown weapons return to you after you attack, and you can curve your thrown weapon attacks around corners and cover."
+					]
+				}
+			]
+		},
+		{
+			"name": "Deathly Eclipse",
+			"source": "FraysStuff",
+			"className": "Prestige Class: Adept",
+			"classSource": "FraysStuff",
+			"subclassShortName": "New Moon",
+			"subclassSource": "FraysStuff",
+			"level": 4,
+			"header": 2,
+			"entries": [
+				"At 4th level, you become more deadly when you use your powers to fade into darkness.",
+				"When you become invisible with your Fade Away feature, you no longer lose invisibility from moving or taking damage.",
+				"When you make a melee attack while invisible against a creature that can't detect you, the attack is a critical hit on a roll of 18 or higher on the d20.",
+				"When you perform a sneak attack while invisible, add an extra 2d6 to the sneak attack damage, and you can convert the damage type of any number of your sneak attack damage dice to force or radiant."
+			]
 		}
 	],
 	"subclass": [
@@ -2944,6 +3014,17 @@
 			],
 			"source": "FraysStuff",
 			"shortName": "Incarnate",
+			"className": "Prestige Class: Adept",
+			"classSource": "FraysStuff"
+		},
+		{
+			"name": "New Moon",
+			"subclassFeatures": [
+				"New Moon Adaptation|Prestige Class: Adept|FraysStuff|New Moon|FraysStuff|2",
+				"Deathly Eclipse|Prestige Class: Adept|FraysStuff|New Moon|FraysStuff|4"
+			],
+			"source": "FraysStuff",
+			"shortName": "New Moon",
 			"className": "Prestige Class: Adept",
 			"classSource": "FraysStuff"
 		}
