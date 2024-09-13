@@ -45,7 +45,7 @@
           "type": "entries",
           "name": "Bouncing Disc",
           "entries": [
-             "When you hit with an attack from this weapon, use the d4 from the damage roll to determine the direction that the projectile bounces: 1 is north, 2 is east, etc. Draw a 20-foot cone facing that direction originating from the first target. If there are enemies or breakable objects in the cone, make an attack against the next closest target in the cone. Un-upgraded, the projectile bounces only 1 time."
+             "When you hit with an attack from this weapon, use the d4 from the damage roll to determine the direction that the projectile bounces: 1 is north, 2 is east, etc. If there are enemies or breakable non-creature objects within 20 feet in that general direction from the first target (at your DM's discretion), make an attack against the next closest target. Un-upgraded, the projectile bounces only 1 time."
           ]
         }
       ],
