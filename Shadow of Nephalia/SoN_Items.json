@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "ShadowOfNephalia",
+        "abbreviation": "SoN",
+        "full": "Shadow of Nephalia",
+        "url": "https://github.com/FrayerDH/Homebrew",
+        "authors": [
+          "Frayer"
+        ]
+      }
+    ]
+  },
+  "item": [
+    {
+      "name": "KERO Buzzer",
+      "source": "ShadowOfNephalia",
+      "type": "R",
+      "rarity": "uncommon",
+      "weight": 12,
+      "value": 30000,
+      "weaponCategory": "martial",
+      "property": [
+        "A",
+        "H",
+        "2H"
+      ],
+      "range": "40/120",
+      "reload": 10,
+      "dmg1": "1d6+1d4",
+      "dmgType": "S",
+      "firearm": true,
+      "weapon": true,
+      "ammoType": "omni ammo|SoN",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Anti-Armor",
+          "entries": [
+             "If the target of your attack calculates AC with armor (ie. not using an Unarmored Defense feature) and isn't protected by energy shields, add 2 to your attack roll."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Bouncing Disc",
+          "entries": [
+             "When you hit with an attack from this weapon, use the d4 from the damage roll to determine the direction that the projectile bounces: 1 is north, 2 is east, etc. Draw a 20-foot cone facing that direction originating from the first target. If there are enemies or breakable objects in the cone, make an attack against the next closest target in the cone. Un-upgraded, the projectile bounces only 1 time."
+          ]
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "The Buzzer is specialty weapon by KERO which magnetically launches rapidly-spinning discs to slice through your enemies. Each disc is lined with an anti-armor, energy-cutter edge and has a motor that keeps it spinning at nearly 60krpm for seconds after firing. The discs tend to bounce and hit more than the initial target, leaving customers with safety concerns that caused the end of this weapon's production."
+        ]
+      }
+    }
+  ]
+}
