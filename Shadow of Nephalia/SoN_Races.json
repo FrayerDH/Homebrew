@@ -1,0 +1,123 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "ShadowOfNephalia",
+        "abbreviation": "SoN",
+        "full": "Shadow of Nephalia - Races",
+        "url": "https://github.com/FrayerDH/Homebrew",
+        "authors": [
+          "Frayer"
+        ]
+      }
+    ]
+  },
+  "race": [
+    {
+      "name": "Ankun",
+      "source": "ShadowOfNephalia",
+      "creatureTypes": [
+        "humanoid"
+      ],
+      "size": [
+        "S",
+        "M"
+      ],
+      "speed": 30,
+      "languageProficiencies": [
+        {
+          "common": true,
+          "Ankunish": true
+        }
+      ],
+      "entries": [
+        {
+          "name": "Creature Type",
+          "entries": [
+            "You are a humanoid."
+          ]
+        },
+        {
+          "name": "Age",
+          "entries": [
+            "The lifespan of Ankun varies a little depending on their beast form, with the larger and slower-metabolism beasts living a bit longer. They mature somewhere around 15 years of age, and their maximum age is between 90 and 120 years."
+          ]
+        },
+        {
+          "name": "Alignment",
+          "entries": [
+            "The Ankun as a whole don't have a tendency towards any alignment. Consider how your beast form's old tribes may have behaved, and how traditional your character would be."
+          ]
+        },
+        {
+          "name": "Size",
+          "entries": [
+            "The size of Ankun varies greatly between the beast forms, from small to medium."
+          ]
+        },
+        {
+          "name": "Movement Ability",
+          "entries": [
+            "Choose one movement-affecting trait from the below appropriate to your beast form:",
+            {
+              "type": "list",
+              "items": [
+                "Runner. Appropriate for beasts that can run quickly over distances, such as canines and horses. Your base movement speed is increased to 35 feet.",
+                "Sprinter. Appropriate for beasts capable of great bursts of speed, such as felines and rabbits. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.",
+                "Flyer. Appropriate for beasts that fly. You have 5 charges that you can use to activate your limited flying capabilities. You can spend 1 charge to gain a flying speed of 30 feet until the start of your next turn. You regain 1 charge when you spend an entire turn on the ground moving no more than your base movement speed. You can glide whenever you have no flying speed, reducing your falling speed to as low as 30 feet per turn and allowing you to move horizontally by up to 30 feet per turn using your movement.",
+                "Swimmer. Appropriate for aquatic and marine beasts. You have a swimming speed of 30 feet and can hold your breath for a number of minutes equal to 15 + double your Constitution modifier (minimum of 15 total minutes).",
+                "Steady. Appropriate for sturdier beasts that take their time, such as bears and large prey. Your base movement speed is reduced to 25 feet, but your Constitution score increases by 1 up to a maximum of 20."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Combat Ability",
+          "entries": [
+            "Choose one trait for offense or defense from the below appropriate to your beast form:",
+            {
+              "type": "list",
+              "items": [
+                "Bite. Appropriate for canines and other predators with strong jaws. Your fanged maw is a natural weapon that you can use to make one unarmed strike per turn. If you hit with it, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. If this attack hits a creature no more than one size larger than you, you can attempt to drag the creature to the ground. If you choose to, make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). If you succeed, you knock the target prone.",
+                "Claws. Appropriate for felines and other predators with rending claws. You can use your claws to make unarmed strikes. When you hit with them, you deal 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.",
+                "Horns/Antlers. Appropriate for creatures that use such natural tools to defend themselves. You can use your horns or antlers to make one unarmed strike per turn. If you hit with it, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You can use your bonus action to ready your horns to block attacks, increasing your AC by 2 against melee attacks that you can see until your next turn. This bonus does not stack with bonus AC provided by a shield.",
+                "Swift Escape. Appropriate for flighty prey or some nimble predators. As a reaction whenever you are targeted by a melee attack or a spell with a range of Touch, you can move up to half your movement speed without triggering opportunity attacks. If you escape the range of the attack or spell, the attack misses or the spell is wasted. You can use this trait only if your speed is greater than 0. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Utility Ability",
+          "entries": [
+            "Choose one miscellaneous trait from the below appropriate to your beast form:",
+            {
+              "type": "list",
+              "items": [
+                "Observant. Appropriate for beasts that are known for powerful, specialized senses, like canines or birds of prey. You have proficiency in the {@skill Perception} skill. Choose the most appropriate sense for your beast form when you create your character: sight, hearing, or smell. You can use your action to focus your specialized sense, giving you advantage on the next Wisdom check you make to perceive or track something using your chosen sense within the next 5 minutes. You must concentrate on this ability as if you were concentrating on a spell until you make that check. You can use this action a number of times per long rest equal to your proficiency bonus.",
+                "Crafty. Appropriate for beasts that make cunning use of tools, environment manipulation, or trickery in the wild. You have proficiency in your choice of one of the following: any one tool, any one vehicle skill, Arcana, Investigation, or Deception. Once per long rest, you can spend 10 minutes examining a device you aren't familiar with, after which you can add your proficiency bonus to checks to operate or identify the device for the following 10 minutes.",
+                "Resilient. Appropriate for beasts that survive in hostile environments. Gain 1 level of toxin resistance. Gain resistance to one of the following damage types most appropriate: poison, cold, fire.",
+                "Social. Appropriate for beasts that live in large groups or symbiotic relationships. You have proficiency in the {@skill Persuasion} skill. You can use the help action using only your bonus action a number of times per long rest equal to your proficiency bonus.",
+                "Nocturnal. You have darkvision. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+              ]
+            }
+          ]
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "The Ankun are a collection of beast races of similar origin that are prevalent in the known systems. Although the beast shapes that they take are widely varied, all Ankun have some amount of Tenoran in their blood. Studies on Ankun suggest that they can be traced back to full Tenoran who were intentionally modified to take on some of the shapes and properties of animals that existed in their time. Recovered materials from the ancient empire show that the Ankun were present but somewhat uncommon, but it's unclear if they served special functions based on their changed forms or if the change was purely cosmetic.",
+          "Unlike the Tenora, some Ankun survived The Fall. It may be that the bestial instincts and resilience injected into them helped to survive the harsh aftermath of the empire. What didn't survive were most of the habits, traditions, and sensibilities from their old lives as citizens of the empire. Instead, most of the Ankun seemed to form tribes and find new ways of living over the millennia, forming traditions related to their animal forms and their new lives amongst the wreckage and the stars. No solid history of their time before the fall was kept, and even the knowledge of the Tenoran language was lost, mutated over time into what is now the Ankunish language.",
+          "Today, the Ankun are one of the more numerous race groups in the systems. It's about a 70/30 split between the Ankun that intermingle with the majority of civilization and those who stay in their traditional groups, closed around their specific beast forms. Culture varies wildly between each of the closed groups, often in ways that you can expect based on their beast forms. Some of those culture quirks stick with the \"civilized\" Ankun, but most are well adjusted.",
+          {
+            "name": "Creating an Ankun Character",
+            "entries": [
+              "The Ankun are greatly varied, so this race sheet should allow you to create most any kind of anthro character you would want to play. Any animal that exists on Earth is a valid option for your beast form, as well as beast-like mythical creatures (in form, not in any magical abilities).",
+              "Some restrictions are observed to keep the Ankun coherent in the setting: All Ankun are born with four limbs: two arms and two legs. Those based on winged animals have their wings on the same limbs as their arms, with three of their \"fingers\" per arm used for wing control, then two fingers and a thumb available for manipulating objects. All Ankun have digitigrade or ungulate legs. Characters based on animals that have tails will be born with tails. All Ankun can breathe normal air. Ankun based on non-mammals will be about half mammal, and Ankun based on cold-blooded animals will be luke-warm-blooded.",
+              "After you choose your beast form, choose the options from the racial traits that are most appropriate for that type of beast. Most options indicate which beast types they are most appropriate for. Please avoid simply choosing the best combination to min-max your character."
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
