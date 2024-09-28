@@ -54,6 +54,82 @@
           "The Buzzer is specialty weapon by KERO which magnetically launches rapidly-spinning discs to slice through your enemies. Each disc is lined with an anti-armor, energy-cutter edge and has a motor that keeps it spinning at nearly 60krpm for seconds after firing. The discs tend to bounce and hit more than the initial target, leaving customers with safety concerns that caused the end of this weapon's production."
         ]
       }
+    },
+    {
+      "name": "IO Raicor",
+      "source": "ShadowOfNephalia",
+      "type": "R",
+      "rarity": "uncommon",
+      "weight": 14,
+      "value": 30000,
+      "weaponCategory": "martial",
+      "property": [
+        "A",
+        "H",
+        "2H"
+      ],
+      "range": "120/360",
+      "dmg1": "1d10",
+      "dmgType": "L",
+      "firearm": true,
+      "weapon": true,
+      "ammoType": "power cell|SoN",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Charge Shot",
+          "entries": [
+            "This weapon cannot make more than 1 attack per turn. When you attack with this weapon, you expend at least 1 attack charging then weapon, then you can expend your remaining extra attacks, bonus actions, and movement to charge the attack further. Each attack and bonus action expended adds 1 level of charge, and you can add an additional 1 by committing to moving no more than 10 feet on your turn by any means. For each charge level, add 1 to the attack roll. If the attack hits, roll damage once for each charge level, add all of the damage rolls together, add an additional 1 per charge level, and apply the total as a single instance of damage. Attacks charged at least 4 times ignore less-than-full cover."
+          ]
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "The Raicor is a powerful infantry energy beam weapon designed to crack the shields and hulls of vehicles with a fully-charged shot. The weapon creates a conductive tunnel between the gun's barrel and the target point, then discharges a massive bolt of electrical energy along the tunnel that looks like a bolt of lightning and cracks with deafening thunder. The gun is still new on the market, and its high price ensures it is a rarely-seen tool of destruction."
+        ]
+      }
+    },
+    {
+      "name": "0C-LOT",
+      "source": "ShadowOfNephalia",
+      "type": "R",
+      "rarity": "rare",
+      "weight": 2,
+      "value": 100000,
+      "weaponCategory": "martial",
+      "property": [
+        "A",
+        "L"
+      ],
+      "range": "40/120",
+      "reload": 6,
+      "dmg1": "1d6",
+      "dmgType": "P",
+      "bonusWeapon": "+1",
+      "firearm": true,
+      "weapon": true,
+      "ammoType": "omni ammo|SoN",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Speed Loader",
+          "entries": [
+            "If you have one hand free, reloading is a free action."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Balanced At the Trigger",
+          "entries": [
+            "The gun is perfectly balanced at the trigger guard, as if it was designed for doing fancy pistol spin tricks. If you convincingly incorporate a pistol spin trick with this weapon into a performance, persuasion, or intimidation check, add 3 to the check. You can also fluster your enemies with your pistol-spinning skills. You can use your bonus action to force a creature that can see you to make a Wisdom saving throw (DC = 8 + your Dexterity modifier + your proficiency bonus if you are proficient in Performance). If it fails, any bonus AC it gets from its Dexterity is ignored by your attacks with this weapon until the end of your turn."
+          ]
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "This custom-designed, one-of-a-kind, and heavily-engraved pistol was made to evoke the revolvers wielded by the mythical \"cowboys\" of ancient legend while still using modern weapon advancements. The marking \"0C-LOT\" is found on the butt of the gun, which you can presume is the name of the weapon"
+        ]
+      }
     }
   ]
 }
