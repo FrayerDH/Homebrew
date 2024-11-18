@@ -462,6 +462,87 @@
 					"anyStandard": 1
 				}
 			]
+		},
+		{
+			"name": "Pixiu Descended",
+			"source": "FraysStuff",
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"WIP"
+					]
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+						"WIP"
+					]
+				},
+				{
+					"name": "Size",
+					"entries": [
+						"WIP"
+					]
+				},
+				{
+					"name": "Fortune Beast",
+					"entries": [
+						"Pixiu are known to bring blessings of good fortune to others, traditionally to those who pet the Pixiu correctly.",
+						"When a creature within 5 feet of the Pixiu uses a bonus action to pet them, the Pixiu may grant them a fortune blessing. While blessed, the creature may activate one of the following effects:",
+						{
+							"type": "list",
+							"items": [
+								"When the blessed creature makes an attack roll or ability check, they can roll 1d4 and add the result to the roll. They can choose to do this after rolling the d20, but before the DM says whether the roll succeeds or fails. Cannot be combined with similar effects such as Bardic Inspiration. The die becomes a d6 when the Pixiu reaches 5th level, a d8 at 10th level, and a d10 at 15th level.",
+								"When the blessed creature finds a stash of treasure or currency, they find a bit more of it or they find slightly more valuable treasure. The value is increased by about 10% times the Pixiu's level.",
+								"When the blessed creature haggles to buy or sell an item or service and the other party isn't aware that the transaction is being magically manipulated, the blessed creature gets a better deal by about 10% times the Pixiu's level."
+							]
+						},
+						"The blessing lasts for 10 minutes or until any of its effects are used. The Pixiu can bless creatures a number of times per long rest equal to their proficiency bonus."
+					]
+				},
+				{
+					"name": "Ward Off Evil",
+					"entries": [
+						"The Pixiu has a keen ability to root out and ward off evil spirits.",
+						"Evil spirits are creatures of these types: fey of evil alignment, aberrations, fiends, and undead. You have a spherical area around you with a radius of 40 feet that wards off evil spirits.",
+						"You are aware of the presence of evil spirits within your ward area, but not their specific location. That feeling can wake you from a non-magical sleep when an evil spirit enters your ward area.",
+						"When an evil spirit is in your ward area, it feels an intense, but not damaging, pain, as well as a strong desire, but not compulsion, to leave your presence. Evil spirits within your ward area cannot be invisible and have disadvantage on Stealth, Performance, and Deception checks to hide or maintain a disguise.",
+						"After spending 7 days in frequent contact with a known non-hostile evil spirit, you are able to \"tune them out\" and they are able to tolerate your presence somewhat."
+					]
+				},
+				{
+					"name": "Treasure Eater",
+					"entries": [
+						"Pixiu are capable of eating all kinds of treasures and have a strong appetite for them. It is said that Pixiu that are well-fed with treasures are the best at bringing good fortune.",
+						"You are able to eat treasures such as currency, jewels, valuable magic items, and artifacts. You never pass the treasures; instead, after some time \"digesting\" them, they disappear into an inaccessible pocket dimension connected to your stomach.",
+						"When you eat treasures outside of initiative, you can heal yourself based on the value of the treasures. You heal for xd4 + x, where x is the gold value of the treasures divided by 10 rounded down. (10gp is 1d4+1, 20gp is 2d4+2, etc.) Healing this way also replenishes your uses of the Fortune Beast feature. You can only use this feature to heal and replenish once per long rest, though you can eat treasure to no benefit as much as you like.",
+						"You must eat treasure on occasion or face consequences. If you haven't eaten treasure worth at least 2gp times your level in the past 7 days, your long rests will no longer restore exhaustion levels, and you will wake from long rests with at least 1 level of exhaustion."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"WIP"
+				]
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			]
 		}
 	],
 	"subrace": [
